@@ -1,0 +1,61 @@
+body { 
+    margin: 0
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    width:60%;
+}
+
+.content {
+    height: 50vh;
+}
+
+.mainBGImg {
+    width:100vw;
+    height: 100vh; 
+    background-image:  url(background.jpg);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.image2 {
+    width:100vw;
+    height: 100vh; 
+    background: green;
+    background-image: url('https://media.architecturaldigest.in/wp-content/uploads/2017/07/gong-restaurant-interiors-1-4.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.mainBGTitle {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10vh;
+    color: white;
+}
+
+.section1Text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vh;
+}
+
+
+
+.title3 {
+    font-size: 5vh;
+}
+
+
+
+
+@media only screen 
+  and (min-device-width: 1000px) 
+  and (max-device-width: 1400px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      .text1 {
+    font-weight: 400;
+    font-size: 2vh;
+}
+
+}
+
