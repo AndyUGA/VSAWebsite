@@ -1,6 +1,6 @@
 body { 
     margin: 0
-    font-family: 'Quicksand', sans-serif;
+        font-family: 'Quicksand', sans-serif;
 }
 
 .container {
@@ -22,7 +22,15 @@ body {
     color: white;
 }
 
-.image2 {
+
+.introText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    font-weight: 400;
+}
+
+
+.mainBGImg2 {
     width:100vw;
     height: 100vh; 
     background: green;
@@ -32,43 +40,45 @@ body {
 }
 
 
-
-.introText {
-    font-family: 'Roboto', sans-serif;
-    font-size: 3vh;
-    font-weight: 400;
-}
-
-
-
-.title3 {
-    font-size: 5vh;
-}
-
 .paddingTopAndBottom {
     padding-top: 15vh;
     padding-bottom: 15vh;
 }
 
+.cardWidth {
+    width: 50%;
+}
 
 
 
-@media only screen and (max-width: 1000px)  {
-      .mainBGTitle {
+
+@media only screen and (max-width: 1450px)  {
+    .mainBGTitle {
         font-family: 'Quicksand', sans-serif;
         font-size: 8vh;
         color: white;
         padding-bottom: 30vh;
     }
-    
+
     .container {
         width: 90%;
     }  
-    
+
     .paddingTopAndBottom {
-    padding-top: 20vh;
-    padding-bottom: 20vh;
-}
+        padding-top: 20vh;
+        padding-bottom: 20vh;
+    }
+
+    .cardWidth {
+        width: 90%;
+    }
+    
+    .paddingTopMobile {
+        padding-top: 4vh;
+    }
+
+
+
 
 }
 
