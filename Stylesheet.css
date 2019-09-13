@@ -11,7 +11,7 @@ body {
 .mainBGImg {
     width:100vw;
     height: 100vh; 
-    background-image:  url(background.jpg);
+    background-image:  url(Images/HomepageBackgrounds/NIS.jpg);
     background-size: cover;
     background-position: center bottom;
 }
@@ -26,7 +26,7 @@ body {
     width:100vw;
     height: 100vh; 
     background: green;
-    background-image: url('https://media.architecturaldigest.in/wp-content/uploads/2017/07/gong-restaurant-interiors-1-4.jpg');
+    background-image: url(./Images/HomepageBackgrounds/FieldDay.jpg);
     background-size: cover;
     background-position: center center;
 }
