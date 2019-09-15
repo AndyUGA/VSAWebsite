@@ -1,3 +1,7 @@
+/*
+* All pages 
+*/
+
 body { 
     margin: 0
         font-family: 'Quicksand', sans-serif;
@@ -8,10 +12,14 @@ body {
 }
 
 
+/*
+Index
+*/
+
 .mainBGImg {
     width:100vw;
     height: 100vh; 
-    background-image:  url(Images/HomepageBackgrounds/NIS.jpg);
+    background-image:  url(../Images/HomepageBackgrounds/NIS.jpg);
     background-size: cover;
     background-position: center bottom;
 }
@@ -34,7 +42,7 @@ body {
     width:100vw;
     height: 100vh; 
     background: green;
-    background-image: url(./Images/HomepageBackgrounds/FieldDay.jpg);
+    background-image: url(../Images/HomepageBackgrounds/FieldDay.jpg);
     background-size: cover;
     background-position: center center;
 }
@@ -75,7 +83,7 @@ Executive Board Page
 .execBoardBGImg {
     width:100vw;
     height: 100vh; 
-    background-image: url(Images/ExecBoard/Everyone.jpg);
+    background-image: url(../Images/ExecBoard/Everyone.jpg);
     background-size: cover;
     background-position: center center;
 }
@@ -97,7 +105,7 @@ NIS
 .NISBGImg {
     width:100vw;
     height: 100vh; 
-    background-image:  url(Images/NIS/Photo2.jpg);
+    background-image:  url(../Images/NIS/Photo2.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -116,7 +124,7 @@ NIS
     .NISBGImg {
     width:100vw;
     height: 100vh; 
-    background-image:  url(Images/NIS/Photo2.jpg);
+    background-image:  url(../Images/NIS/Photo2.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -127,8 +135,8 @@ NIS
     }  
 
     .paddingTopAndBottom {
-        padding-top: 20vh;
-        padding-bottom: 20vh;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
     }
 
     .cardWidth {
@@ -141,7 +149,7 @@ NIS
     
     .minHeight {
     min-height: 88vh;
-}
+    }
     
     .marginTop {
         margin-top: 3vh;
