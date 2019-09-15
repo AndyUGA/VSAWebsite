@@ -39,6 +39,10 @@ body {
     background-position: center center;
 }
 
+.paddingTopAndBottom {
+    padding-bottom: 20vh;
+    padding-top: 20vh;
+}
 
 .paddingBottom {
     padding-bottom: 5vh;
@@ -68,12 +72,35 @@ body {
 Executive Board Page
 */
 
+.execBoardBGImg {
+    width:100vw;
+    height: 100vh; 
+    background-image: url(Images/ExecBoard/Everyone.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
 .minHeight {
     min-height: 100vh;
 }
 
 .marginTop {
     margin-top: 2vh;
+}
+
+
+
+
+/*
+NIS
+*/
+.NISBGImg {
+    width:100vw;
+    height: 100vh; 
+    background-image:  url(Images/NIS/Photo2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 
@@ -85,6 +112,15 @@ Executive Board Page
         color: white;
         padding-bottom: 30vh;
     }
+    
+    .NISBGImg {
+    width:100vw;
+    height: 100vh; 
+    background-image:  url(Images/NIS/Photo2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
     .container {
         width: 90%;
