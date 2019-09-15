@@ -28,6 +28,7 @@ Index
     font-family: 'Quicksand', sans-serif;
     font-size: 10vh;
     color: white;
+
 }
 
 
@@ -56,24 +57,8 @@ Index
     padding-bottom: 5vh;
 }
 
-.cardWidth {
-    width: 30%;
-}
 
-.nameFont {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-}
 
-.positionFont {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-}
-
-.quoteFont {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-}
 
 
 /*
@@ -96,6 +81,25 @@ Executive Board Page
     margin-top: 2vh;
 }
 
+.cardWidth {
+    width: 30%;
+}
+
+
+.nameFont {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.positionFont {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.quoteFont {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
 
 
 
@@ -114,21 +118,11 @@ NIS
 
 /* Mobile Devices */
 @media only screen and (min-width: 300px) and (max-width: 812px)  {
-    .mainBGTitle {
-        font-family: 'Quicksand', sans-serif;
-        font-size: 8vh;
-        color: white;
-        padding-bottom: 30vh;
-    }
-    
-    .NISBGImg {
-    width:100vw;
-    height: 100vh; 
-    background-image:  url(../Images/NIS/Photo2.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
+
+
+    /*
+    All 
+    */ 
 
     .container {
         width: 90%;
@@ -139,57 +133,109 @@ NIS
         padding-bottom: 5vh;
     }
 
-    .cardWidth {
-        width: 90%;
+
+    /*
+    * Index 
+    */
+    .mainBGTitle {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 8vh;
+        color: white;
+        padding-bottom: 20vh;
     }
 
-    .paddingTopMobile {
-        padding-top: 4vh;
+    .mainBGTitleNoBottomPadding {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 8vh;
+        color: white;
+        padding-bottom: 0vh;
     }
     
-    .minHeight {
-    min-height: 88vh;
+    /*
+    Exec
+    */
+    
+     .cardWidth {
+        width: 90%;
     }
     
+     .minHeight {
+        min-height: 88vh;
+    }
+
     .marginTop {
         margin-top: 3vh;
     }
+
+
+    /* 
+    * NIS
+    */
+
+   
+  
+
+   
 
 }
 
 /* Tablet Devices */
 @media only screen and (min-width: 812px) and (max-width: 1400px)  {
-    .mainBGTitle {
+    
+    /*
+    All
+    */
+    
+     .mainBGTitle {
         font-family: 'Quicksand', sans-serif;
         font-size: 8vh;
         color: white;
-        padding-bottom: 30vh;
-    }
 
+    }
+    
     .container {
         width: 90%;
     }  
-
+    
+    /*
+    Index 
+    */ 
+    
     .paddingTopAndBottom {
         padding-top: 20vh;
         padding-bottom: 20vh;
     }
-
-    .cardWidth {
-        width: 70%;
-    }
-
-    .paddingTopMobile {
-        padding-top: 4vh;
-    }
+    
+    /*
+    Exec
+    */
     
     .minHeight {
-    min-height: 100vh;
-}
-    
+        min-height: 100vh;
+    }
+
     .marginTop {
         margin-top: 5vh;
     }
+    
+    .cardWidth {
+        width: 70%;
+    }
+    
+    /*
+    NIS
+    */
+   
+
+    
+
+    
+
+    
+
+    
+
+    
 
 }
 
