@@ -19,16 +19,16 @@ Index
 .mainBGImg {
     width:100vw;
     height: 100vh; 
-    background-image:  url(../Images/HomepageBackgrounds/NIS.jpg);
+    background-image:  url(../Images/HomepageBackgrounds/Olympics.jpg);
     background-size: cover;
-    background-position: center bottom;
+    background-position: center center;
 }
 
 .mainBGTitle {
     font-family: 'Quicksand', sans-serif;
     font-size: 10vh;
     color: white;
-
+    padding-bottom: 10vh;
 }
 
 
@@ -115,6 +115,19 @@ NIS
     background-position: center center;
 }
 
+.NISBGImg2 {
+    width:100vw;
+    height: 100vh; 
+    background-image:  url(../Images/HomepageBackgrounds/NIS.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.paddingTop {
+    padding-top: 5vh;
+}
+
 
 /* Mobile Devices */
 @media only screen and (min-width: 300px) and (max-width: 812px)  {
@@ -139,9 +152,11 @@ NIS
     */
     .mainBGTitle {
         font-family: 'Quicksand', sans-serif;
-        font-size: 8vh;
+        font-size: 5vh;
+        font-weight: bold;
         color: white;
-        padding-bottom: 20vh;
+        padding-top: 20vh;
+
     }
 
     .mainBGTitleNoBottomPadding {
