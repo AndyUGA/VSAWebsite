@@ -73,6 +73,16 @@ Executive Board Page
     background-position: center center;
 }
 
+.execBoardBGImg2 {
+    width:100vw;
+    height: 100vh; 
+    background-image:  url(../Images/ExecBoard/Everyone2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
 .minHeight {
     min-height: 100vh;
 }
