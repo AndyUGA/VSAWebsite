@@ -16,7 +16,7 @@ body {
 Index
 */
 
-.mainBGImg {
+.bgImg1 {
     width:100%;
     height: 100vh; 
 
@@ -25,11 +25,29 @@ Index
     background-position: center center;
 }
 
+.bgImg2 {
+    width:100vw;
+    height: 100vh; 
+    background: green;
+    background-image: url(../Images/HomepageBackgrounds/GameNight.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.bgImg3 {
+    width:100vw;
+    height: 100vh; 
+    background: green;
+    background-image: url(../Images/HomepageBackgrounds/ACE.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
 .mainBGTitle {
     font-family: 'Quicksand', sans-serif;
     font-size: 10vh;
-    color: white;
-    padding-bottom: 10vh;
+    color: black;
+    padding-top: 5vh;
 }
 
 
@@ -40,14 +58,7 @@ Index
 }
 
 
-.mainBGImg2 {
-    width:100vw;
-    height: 100vh; 
-    background: green;
-    background-image: url(../Images/HomepageBackgrounds/FieldDay.jpg);
-    background-size: cover;
-    background-position: center center;
-}
+
 
 .paddingTopAndBottom {
     padding-bottom: 15vh;
@@ -111,6 +122,10 @@ Executive Board Page
     font-weight: 300;
 }
 
+.borderRadius {
+    border-radius: 10%;
+}
+
 
 
 /*
@@ -164,8 +179,8 @@ NIS
         font-family: 'Quicksand', sans-serif;
         font-size: 5vh;
         font-weight: bold;
-        color: white;
-        padding-top: 20vh;
+        color: black;
+      
 
     }
 
@@ -174,6 +189,14 @@ NIS
         font-size: 8vh;
         color: white;
         padding-bottom: 0vh;
+    }
+    
+    .paddingBottom {
+        padding-bottom: 0vh;
+    }
+    
+    .paddingTop {
+        padding-top: 2vh;
     }
     
     /*
@@ -214,7 +237,7 @@ NIS
      .mainBGTitle {
         font-family: 'Quicksand', sans-serif;
         font-size: 8vh;
-        color: white;
+        color: black;
 
     }
     
