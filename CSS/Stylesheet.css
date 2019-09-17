@@ -134,11 +134,13 @@ Executive Board Page
 .nameFont {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    font-size: 4vh;
 }
 
 .positionFont {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+   
 }
 
 .quoteFont {
