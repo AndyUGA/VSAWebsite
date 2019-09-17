@@ -78,11 +78,13 @@ Executive Board Page
 */
 
 .execBoardBGImg {
+
     width:100vw;
     height: 100vh; 
     background-image: url(../Images/ExecBoard/Everyone.jpg);
     background-size: cover;
     background-position: center center;
+
 }
 
 .execBoardBGImg2 {
@@ -106,6 +108,12 @@ Executive Board Page
     width: 30%;
 }
 
+.execTitle {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10vh;
+    color: white;
+    padding-top: 5vh;
+}
 
 .nameFont {
     font-family: 'Roboto', sans-serif;
@@ -153,7 +161,7 @@ NIS
     font-family: 'Quicksand', sans-serif;
     font-size: 10vh;
     color: white;
-    padding-top: 5vh;
+
 }
 
 .paddingTop {
@@ -187,7 +195,7 @@ NIS
         font-size: 5vh;
         font-weight: bold;
         color: black;
-      
+
 
     }
 
@@ -197,24 +205,26 @@ NIS
         color: white;
         padding-bottom: 0vh;
     }
-    
+
     .paddingBottom {
         padding-bottom: 0vh;
     }
-    
+
     .paddingTop {
         padding-top: 2vh;
     }
-    
+
+
+
     /*
     Exec
     */
-    
-     .cardWidth {
+
+    .cardWidth {
         width: 90%;
     }
-    
-     .minHeight {
+
+    .minHeight {
         min-height: 88vh;
     }
 
@@ -227,44 +237,51 @@ NIS
     * NIS
     */
 
-   
-  
+    .NISTitle {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 10vh;
+        color: white;
+        padding-bottom: 35vh;
+        line-height: 
+        
+    }
 
-   
+
+
 
 }
 
 /* Tablet Devices */
 @media only screen and (min-width: 812px) and (max-width: 1400px)  {
-    
+
     /*
     All
     */
-    
-     .mainBGTitle {
+
+    .mainBGTitle {
         font-family: 'Quicksand', sans-serif;
         font-size: 8vh;
         color: black;
 
     }
-    
+
     .container {
         width: 90%;
     }  
-    
+
     /*
     Index 
     */ 
-    
+
     .paddingTopAndBottom {
         padding-top: 20vh;
         padding-bottom: 20vh;
     }
-    
+
     /*
     Exec
     */
-    
+
     .minHeight {
         min-height: 100vh;
     }
@@ -272,25 +289,25 @@ NIS
     .marginTop {
         margin-top: 5vh;
     }
-    
+
     .cardWidth {
         width: 70%;
     }
-    
+
     /*
     NIS
     */
-   
 
-    
 
-    
 
-    
 
-    
 
-    
+
+
+
+
+
+
 
 }
 
