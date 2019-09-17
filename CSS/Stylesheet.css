@@ -17,12 +17,14 @@ Index
 */
 
 .bgImg1 {
-    width:100%;
-    height: 100vh; 
-
-    background-image:  url(../Images/HomepageBackgrounds/Olympics.jpg);
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/HomepageBackgrounds/FieldDay.jpg');
     background-size: cover;
     background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .bgImg2 {
@@ -50,6 +52,14 @@ Index
     padding-top: 5vh;
 }
 
+.landingPageTitle {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10vh;
+    color: white;
+    padding-bottom: 15vh;
+}
+
+
 
 .introText {
     font-family: 'Roboto', sans-serif;
@@ -67,6 +77,10 @@ Index
 
 .paddingBottom {
     padding-bottom: 5vh;
+}
+
+.borderRadius {
+    border-radius: 20%;
 }
 
 
@@ -130,9 +144,7 @@ Executive Board Page
     font-weight: 300;
 }
 
-.borderRadius {
-    border-radius: 10%;
-}
+
 
 
 
@@ -168,6 +180,10 @@ NIS
     padding-top: 5vh;
 }
 
+.NISborderRadius {
+    border-radius: 00%;
+}
+
 
 /* Mobile Devices */
 @media only screen and (min-width: 300px) and (max-width: 812px)  {
@@ -196,6 +212,13 @@ NIS
         font-weight: bold;
         color: black;
 
+
+    }
+
+    .landingPageTitle {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 8vh;
+        color: white;
 
     }
 
@@ -243,7 +266,7 @@ NIS
         color: white;
         padding-bottom: 35vh;
         line-height: 
-        
+
     }
 
 
