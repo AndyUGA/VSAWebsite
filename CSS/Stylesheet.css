@@ -208,6 +208,10 @@ NIS
     /*
     * Index 
     */
+
+    .borderRadius {
+        border-radius: 20%;
+    }
     .mainBGTitle {
         font-family: 'Quicksand', sans-serif;
         font-size: 5vh;
