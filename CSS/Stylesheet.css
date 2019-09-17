@@ -149,6 +149,13 @@ NIS
     background-position: center bottom;
 }
 
+.NISTitle {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10vh;
+    color: white;
+    padding-top: 5vh;
+}
+
 .paddingTop {
     padding-top: 5vh;
 }
