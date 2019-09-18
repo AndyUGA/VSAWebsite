@@ -59,11 +59,15 @@ Index
     padding-bottom: 15vh;
 }
 
-
-
 .introText {
     font-family: 'Roboto', sans-serif;
     font-size: 3vh;
+    font-weight: 400;
+}
+
+.carouselText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vh;
     font-weight: 400;
 }
 
@@ -104,11 +108,14 @@ Executive Board Page
 }
 
 .execBoardBGImg2 {
-    width:100vw;
-    height: 100vh; 
-    background-image: url(../Images/ExecBoard/Everyone2.jpg);
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/ExecBoard/Everyone2.jpg');
     background-size: cover;
     background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
@@ -129,6 +136,13 @@ Executive Board Page
     font-size: 10vh;
     color: white;
     padding-bottom: 20vh;
+}
+
+.execTitle2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10vh;
+    color: white;
+
 }
 
 .nameFont {
