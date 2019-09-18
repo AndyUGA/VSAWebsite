@@ -18,7 +18,7 @@ Index
 
 .bgImg1 {
     height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/HomepageBackgrounds/FieldDay.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/HomepageBackgrounds/FieldDay.jpg');
     background-size: cover;
     background-position: center center;
     -webkit-background-size: cover;
@@ -54,7 +54,7 @@ Index
 
 .landingPageTitle {
     font-family: 'Quicksand', sans-serif;
-    font-size: 10vh;
+    font-size: 12vh;
     color: white;
     padding-bottom: 15vh;
 }
@@ -93,7 +93,7 @@ Executive Board Page
 
 .execBoardBGImg {
     height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/ExecBoard/Everyone.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/ExecBoard/Everyone.jpg');
     background-size: cover;
     background-position: center center;
     -webkit-background-size: cover;
