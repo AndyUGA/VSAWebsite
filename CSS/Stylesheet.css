@@ -240,9 +240,18 @@ NIS
     .paddingBottom {
         padding-bottom: 0vh;
     }
+    
 
     .paddingTop {
         padding-top: 2vh;
+    }
+    
+    .paddingTopNIS {
+        padding-top: 7vh;
+    }
+    
+    .paddingBottomNIS {
+        padding-bottom: 5vh;
     }
 
 
