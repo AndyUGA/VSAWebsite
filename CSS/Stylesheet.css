@@ -65,13 +65,11 @@ Index
     font-weight: 400;
 }
 
-.carouselText {
-    font-family: 'Roboto', sans-serif;
-    font-size: 5vh;
-    font-weight: 400;
+
+
+.backgroundColor {
+    background-color: #F2F2F2 !important;
 }
-
-
 
 
 .paddingTopAndBottom {
