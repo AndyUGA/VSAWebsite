@@ -10,6 +10,14 @@ body {
     width:50%;
 }
 
+.landingPageTitle {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12vh;
+    color: white;
+    padding-bottom: 15vh;
+}
+
+
 
 /*
 Index
@@ -60,12 +68,6 @@ Index
     padding-top: 5vh;
 }
 
-.landingPageTitle {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 12vh;
-    color: white;
-    padding-bottom: 15vh;
-}
 
 .introText {
     font-family: 'Roboto', sans-serif;
@@ -201,6 +203,12 @@ NIS
 
 .NISborderRadius {
     border-radius: 00%;
+}
+
+.nameFont2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 3vh;
 }
 
 
