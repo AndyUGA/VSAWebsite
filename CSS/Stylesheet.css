@@ -16,6 +16,15 @@ body {
 Index
 */
 
+.carouselHeight1{
+    height: 85vh;
+} 
+.carouselHeight2{
+    height: 85vh;
+    background-position: center top;
+    object-fit:cover;
+}
+
 .bgImg1 {
     height: 100vh;
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/HomepageBackgrounds/FieldDay.jpg');
@@ -82,7 +91,7 @@ Index
 }
 
 .borderRadius {
-    border-radius: 20%;
+    border-radius: 15%;
 }
 
 
@@ -152,7 +161,7 @@ Executive Board Page
 .positionFont {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-   
+
 }
 
 .quoteFont {
@@ -223,6 +232,15 @@ NIS
     * Index 
     */
 
+    .carouselHeight1{
+        height: 40vh;
+    } 
+    .carouselHeight2{
+
+        height: 40vh;
+        object-fit:cover;
+    }
+
     .borderRadius {
         border-radius: 20%;
     }
@@ -252,16 +270,16 @@ NIS
     .paddingBottom {
         padding-bottom: 0vh;
     }
-    
+
 
     .paddingTop {
         padding-top: 2vh;
     }
-    
+
     .paddingTopNIS {
         padding-top: 7vh;
     }
-    
+
     .paddingBottomNIS {
         padding-bottom: 5vh;
     }
@@ -308,6 +326,18 @@ NIS
 
 
 
+}
+
+/* Mobile Device Landscape Mode */
+@media only screen and (min-width: 300px) and (max-width: 812px) and (orientation : landscape)  {
+    .carouselHeight1{
+        height: 100vh;
+    } 
+    .carouselHeight2{
+
+        height: 100vh;
+        object-fit:cover;
+    }
 }
 
 /* Tablet Devices */
