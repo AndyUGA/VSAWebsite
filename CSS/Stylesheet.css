@@ -3,8 +3,7 @@
 */
 
 body { 
-    margin: 0
-        font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .container {
@@ -153,20 +152,15 @@ Executive Board Page
 }
 
 .nameFont {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
     font-size: 4vh;
 }
 
 .positionFont {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 400;
 
-}
-
-.quoteFont {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
 }
 
 
@@ -207,6 +201,35 @@ NIS
 
 .NISborderRadius {
     border-radius: 00%;
+}
+
+
+/*
+Ace Program
+*/ 
+
+.AceBGIMG {
+
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/ACE/LandingBG.jpg');
+    background-size: cover;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.AceBGIMG2 {
+
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/ACE/LandingBG2.jpg');
+    background-size: cover;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
@@ -319,9 +342,15 @@ NIS
         font-size: 10vh;
         color: white;
         padding-bottom: 35vh;
-        line-height: 
+
 
     }
+
+    /*
+    Ace Program
+    */
+
+
 
 
 
