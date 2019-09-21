@@ -251,6 +251,36 @@ Ace Program
     background-size: cover;
 }
 
+/*
+Olmypics 
+*/
+
+.OlmypicsBGIMG {
+
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/HomepageBackgrounds/Olympics.jpg');
+    background-size: cover;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.OlmypicsBGIMG2 {
+
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/Olmypics/BgIMG1.jpg');
+    background-size: cover;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
 
 /* Mobile Devices */
 @media only screen and (min-width: 300px) and (max-width: 812px)  {
