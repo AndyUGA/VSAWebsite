@@ -183,6 +183,16 @@ Executive Board Page
 /*
 NIS
 */
+
+.containerNIS {
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
 .NISBGImg {
     width:100vw;
     height: 100vh; 
@@ -399,11 +409,19 @@ Olmypics
 
     }
 
+    .containerNIS {
+        width: 90%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     /*
     Ace Program
     */
 
-    
+
 
 
 
@@ -420,14 +438,22 @@ Olmypics
         height: 100vh;
         object-fit:cover;
     }
-    
+
     .container {
         width: 50%;
     }
-    
+
+    .containerNIS {
+        width: 70%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     .cardFont {
-    font-size: 2vw;
-}
+        font-size: 2vw;
+    }
 }
 
 /* Tablet Devices */
@@ -476,6 +502,14 @@ Olmypics
     /*
     NIS
     */
+
+    .containerNIS {
+        width: 80%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 
 
