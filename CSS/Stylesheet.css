@@ -251,6 +251,10 @@ Ace Program
     background-size: cover;
 }
 
+.cardFont {
+    font-size: 3vh;
+}
+
 /*
 Olmypics 
 */
@@ -399,7 +403,7 @@ Olmypics
     Ace Program
     */
 
-
+    
 
 
 
@@ -407,7 +411,7 @@ Olmypics
 }
 
 /* Mobile Device Landscape Mode */
-@media only screen and (min-width: 300px) and (max-width: 812px) and (orientation : landscape)  {
+@media only screen and (min-width: 300px) and (max-width: 899px) and (orientation : landscape)  {
     .carouselHeight1{
         height: 100vh;
     } 
@@ -416,10 +420,18 @@ Olmypics
         height: 100vh;
         object-fit:cover;
     }
+    
+    .container {
+        width: 50%;
+    }
+    
+    .cardFont {
+    font-size: 2vw;
+}
 }
 
 /* Tablet Devices */
-@media only screen and (min-width: 812px) and (max-width: 1400px)  {
+@media only screen and (min-width: 900px) and (max-width: 1400px)  {
 
     /*
     All
