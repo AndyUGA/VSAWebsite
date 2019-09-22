@@ -258,7 +258,7 @@ Olmypics
 .OlmypicsBGIMG {
 
     height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/HomepageBackgrounds/Olympics.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/Olmypics/BgIMG4.jpg');
     background-size: cover;
     background-position: center center;
     -webkit-background-size: cover;
@@ -270,7 +270,7 @@ Olmypics
 .OlmypicsBGIMG2 {
 
     height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/Olmypics/BgIMG1.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/Olmypics/BgIMG5.jpg');
     background-size: cover;
     background-position: center center;
     -webkit-background-size: cover;
