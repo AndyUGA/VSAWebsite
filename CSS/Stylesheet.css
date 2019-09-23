@@ -81,7 +81,7 @@ Index
 
 
 
-.backgroundColor {
+.grayBackground {
     background-color: #F2F2F2 !important;
 }
 
@@ -454,6 +454,13 @@ Olmypics
     .cardFont {
         font-size: 2vw;
     }
+    
+   .NISTitle {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 8vw;
+    color: white;
+
+}
 }
 
 /* Tablet Devices */
