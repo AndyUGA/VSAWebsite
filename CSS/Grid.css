@@ -32,7 +32,17 @@ body {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+
 }
+
+.Stretch {
+    height:30%;
+}
+
+.Stretch2 {
+    height:29%;
+}
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
