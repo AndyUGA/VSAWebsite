@@ -28,6 +28,8 @@ body {
 Index
 */
 
+
+
 .carouselHeight1{
     height: 85vh;
 } 
@@ -457,7 +459,7 @@ Olympics
     }
 
     .cardFont {
-        font-size: 2vw;
+        font-size: 1.9vw;
     }
     
    .NISTitle {
