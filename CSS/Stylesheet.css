@@ -120,6 +120,11 @@ a:hover {
     padding-top: 15vh;
 }
 
+.footerPadding {
+    padding-bottom: 15vh;
+    padding-top: 15vh;
+}
+
 .paddingBottom {
     padding-bottom: 5vh;
 }
@@ -345,6 +350,11 @@ Olympics
         padding-top: 10vh;
         padding-bottom: 10vh;
     }
+    
+    .footerPadding {
+        padding-top: 5vh;
+        padding-bottom: 2vh;
+    }
 
 
     /*
@@ -523,6 +533,8 @@ Olympics
         padding-top: 20vh;
         padding-bottom: 20vh;
     }
+    
+    
 
     /*
     Exec
