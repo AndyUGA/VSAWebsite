@@ -89,6 +89,31 @@ Index
     background-color: #F2F2F2 !important;
 }
 
+.blackBackground {
+    background-color: #111111 !important;
+    color: white;
+}
+
+.footerText {
+    color: #F80B0F;
+    font-size: 2vh
+}
+
+.footerRemove {
+    text-decoration: none;
+}
+
+.colorATag {
+    color: #595959 !important;
+}
+
+.colorATag :hover{
+    color: white !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
 
 .paddingTopAndBottom {
     padding-bottom: 15vh;
