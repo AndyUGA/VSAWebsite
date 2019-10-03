@@ -61,6 +61,9 @@ Index
 */
 
 
+.vsaLogo {
+    width: 3vw;
+}
 
 .carouselHeight1{
     height: 85vh;
@@ -210,7 +213,7 @@ Executive Board Page
 
 .marginTop {
     margin-top: 2vh;
-  
+
 }
 
 .cardWidth {
@@ -374,15 +377,37 @@ Olympics
     All 
     */ 
 
+
     .container {
         width: 90%;
     }  
+
+    .vsaLogo {
+        width: 15vw;
+    }
+
+    .hvr-underline-from-center:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: 51%;
+        right: 51%;
+        bottom: 0;
+        background: #343A40;
+        height: 4px;
+        -webkit-transition-property: left, right;
+        transition-property: left, right;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+    }
 
     .paddingTopAndBottom {
         padding-top: 10vh;
         padding-bottom: 10vh;
     }
-    
+
     .footerPadding {
         padding-top: 5vh;
         padding-bottom: 2vh;
@@ -430,7 +455,7 @@ Olympics
 
     .paddingBottom {
         padding-bottom: 0vh;
-        
+
     }
 
 
@@ -530,13 +555,13 @@ Olympics
     .cardFont {
         font-size: 1.9vw;
     }
-    
-   .NISTitle {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 8vw;
-    color: white;
 
-}
+    .NISTitle {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 8vw;
+        color: white;
+
+    }
 }
 
 /* Tablet Devices */
@@ -565,8 +590,8 @@ Olympics
         padding-top: 20vh;
         padding-bottom: 20vh;
     }
-    
-    
+
+
 
     /*
     Exec
