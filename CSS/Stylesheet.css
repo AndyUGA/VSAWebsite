@@ -339,6 +339,11 @@ Ace Program
     font-size: 3vh;
 }
 
+.aceIMG {
+    height: 25vh;
+    width: 100%;
+}
+
 /*
 Olympics 
 */
