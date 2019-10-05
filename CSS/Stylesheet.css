@@ -194,6 +194,18 @@ Who We Are
     background-position: center bottom;
 }
 
+.aboutUsLogo {
+    width: 50%;
+}
+
+.partnersLogo {
+    width: 30%;
+}
+
+.fontAwesomeFont {
+    font-size: 30vw;
+}
+
 
 /*
 Executive Board Page
