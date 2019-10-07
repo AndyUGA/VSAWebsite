@@ -58,6 +58,10 @@ body {
     padding-bottom: 15vh;
 }
 
+.socialMediaIcons {
+    color: red;
+}
+
 
 
 /*
@@ -155,8 +159,8 @@ a:hover {
 }
 
 .paddingTopAndBottom {
-    padding-bottom: 15vh;
-    padding-top: 15vh;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
 }
 
 .footerPadding {
