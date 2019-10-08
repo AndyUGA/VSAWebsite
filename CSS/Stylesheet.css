@@ -66,7 +66,7 @@ Index
 
 
 .vsaLogo {
-    width: 3vw;
+    width: 3vh;
 }
 
 .carouselHeight1{
@@ -154,10 +154,22 @@ a:hover {
     text-decoration: none;
 }
 
-.paddingTopAndBottom {
+ .paddingTopAndBottom {
     padding-bottom: 15vh;
     padding-top: 15vh;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
 }
+
+
+.socialMediaIcons {
+    color: red;
+}
+
+.minHeight50 {
+    min-height: 50vh;
+}
+
 
 .footerPadding {
     padding-bottom: 15vh;
@@ -416,7 +428,7 @@ Olympics
     }  
 
     .vsaLogo {
-        width: 15vw;
+        width: 7vh;
     }
 
     .hvr-underline-from-center:before {
@@ -564,6 +576,14 @@ Olympics
 
 /* Mobile Device Landscape Mode */
 @media only screen and (min-width: 300px) and (max-width: 899px) and (orientation : landscape)  {
+    
+     .container {
+        width: 50%;
+    }
+    
+    .vsaLogo {
+        width: 8vw;
+    }
     .carouselHeight1{
         height: 100vh;
     } 
@@ -573,9 +593,7 @@ Olympics
         object-fit:cover;
     }
 
-    .container {
-        width: 50%;
-    }
+   
 
     .containerNIS {
         width: 70%;
