@@ -65,8 +65,26 @@ Index
 */
 
 
+.indexVSALogo {
+    width: 15%;
+}
 .vsaLogo {
-    width: 3vh;
+    width: 7vh;
+}
+
+.pillarFontSize {
+    font-size: 10vh;
+   
+}
+
+.pillarBold {
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+span {
+    border-bottom: 2px solid black;
+   
 }
 
 .carouselHeight1{
@@ -415,13 +433,18 @@ Olympics
 
 
 /* Mobile Devices */
-@media only screen and (min-width: 300px) and (max-width: 812px)  {
+@media only screen and (min-width: 300px) and (max-width: 820px)  {
 
 
     /*
     All 
     */ 
-
+    
+    
+    .indexVSALogo {
+        padding-top: 10%;
+        width: 30%;
+    }
 
     .container {
         width: 90%;
@@ -583,6 +606,11 @@ Olympics
     
     .vsaLogo {
         width: 8vw;
+    }
+    
+    .indexVSALogo {
+        padding-top: 5%;
+        width: 15%;
     }
     .carouselHeight1{
         height: 100vh;
