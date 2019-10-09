@@ -74,7 +74,7 @@ Index
 
 .pillarFontSize {
     font-size: 10vh;
-   
+
 }
 
 .pillarBold {
@@ -84,7 +84,7 @@ Index
 
 span {
     border-bottom: 2px solid black;
-   
+
 }
 
 .carouselHeight1{
@@ -172,7 +172,7 @@ a:hover {
     text-decoration: none;
 }
 
- .paddingTopAndBottom {
+.paddingTopAndBottom {
     padding-bottom: 15vh;
     padding-top: 15vh;
     padding-bottom: 5vh;
@@ -274,6 +274,14 @@ Executive Board Page
 
 }
 
+.containerEBoard {
+    width: 30%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+
+}
 .cardWidth {
     width: 30%;
 }
@@ -439,8 +447,8 @@ Olympics
     /*
     All 
     */ 
-    
-    
+
+
     .indexVSALogo {
         padding-top: 10%;
         width: 30%;
@@ -556,6 +564,14 @@ Olympics
         width: 90%;
     }
 
+    .containerEBoard {
+        width: 90%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto
+    }
+
     .minHeight {
         min-height: 88vh;
     }
@@ -599,15 +615,15 @@ Olympics
 
 /* Mobile Device Landscape Mode */
 @media only screen and (min-width: 300px) and (max-width: 899px) and (orientation : landscape)  {
-    
-     .container {
+
+    .container {
         width: 50%;
     }
-    
+
     .vsaLogo {
         width: 8vw;
     }
-    
+
     .indexVSALogo {
         padding-top: 5%;
         width: 15%;
@@ -621,7 +637,15 @@ Olympics
         object-fit:cover;
     }
 
-   
+    .containerEBoard {
+        width: 50%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto
+    }
+
+
 
     .containerNIS {
         width: 70%;
@@ -687,6 +711,15 @@ Olympics
     .cardWidth {
         width: 70%;
     }
+
+    .containerEBoard {
+        width: 80%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto
+    }
+
 
     /*
     NIS
