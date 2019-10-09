@@ -78,7 +78,7 @@ Index
 }
 
 .pillarBold {
-    font-size: 4vh;
+    font-size: 6vh;
     font-weight: bold;
 }
 
@@ -184,8 +184,8 @@ a:hover {
     color: red;
 }
 
-.minHeight50 {
-    min-height: 50vh;
+.minHeight30 {
+    min-height: 30vh;
 }
 
 
