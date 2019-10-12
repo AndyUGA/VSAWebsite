@@ -83,7 +83,7 @@ display: block !important;
 .pillarBold {
     font-size: 2vw;
     font-weight: bold;
- 
+
 }
 
 .pillarFontSize {
@@ -92,11 +92,11 @@ display: block !important;
 
 }
 
- u {
+u {
     text-decoration: none;
     border-bottom: 3px solid black;
 
-  }
+}
 
 span {
     border-bottom: 2px solid black;
@@ -488,7 +488,7 @@ Olympics
 
 
 /* Mobile Devices */
-@media only screen and (min-width: 300px) and (max-width: 750px)  {
+@media only screen and (min-width: 300px) and (max-width: 767px)  {
 
 
     /*
@@ -672,8 +672,8 @@ Olympics
     .container {
         width: 50%;
     }
-    
-     .pillarBold {
+
+    .pillarBold {
         font-size: 3vw;
         font-weight: bold;
     }
@@ -726,7 +726,7 @@ Olympics
 }
 
 /* Tablet Devices */
-@media only screen and (min-width: 751px) and (max-width: 1400px)  {
+@media only screen and (min-width: 768px) and (max-width: 1200px)  {
 
     /*
     All
@@ -751,8 +751,8 @@ Olympics
         padding-top: 20vh;
         padding-bottom: 20vh;
     }
-    
-    
+
+
 
 
     /*
@@ -793,6 +793,16 @@ Olympics
     }
 
 
+    /*
+    Partners
+    */
+
+    .ParternsTitle {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 5vh;
+        font-weight: bold;
+        color: black;
+    }
 
 
 
