@@ -43,12 +43,13 @@ a:hover {
 }
 body { 
     font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
 }
 
 
 
 .container {
-    width:50%;
+    width:70%;
 }
 
 .landingPageTitle {
@@ -64,22 +65,30 @@ body {
 Index
 */
 
+/*
+.dropdown:hover .dropdown-menu {
+display: block !important;
+}
+*/
 
 .indexVSALogo {
-    width: 15%;
+    width: 15vw;
+    padding-top: 3vh;
 }
 .vsaLogo {
     width: 7vh;
 }
 
-.pillarFontSize {
-    font-size: 10vh;
-
-}
 
 .pillarBold {
-    font-size: 6vh;
+    font-size: 2vw;
     font-weight: bold;
+}
+
+.pillarFontSize {
+    font-size: 10vh;
+    text-align: center;
+
 }
 
 span {
@@ -175,8 +184,6 @@ a:hover {
 .paddingTopAndBottom {
     padding-bottom: 15vh;
     padding-top: 15vh;
-    padding-bottom: 5vh;
-    padding-top: 5vh;
 }
 
 
@@ -186,6 +193,10 @@ a:hover {
 
 .minHeight30 {
     min-height: 30vh;
+}
+
+.minHeight50 {
+    min-height: 70vh;   
 }
 
 
@@ -468,7 +479,7 @@ Olympics
 
 
 /* Mobile Devices */
-@media only screen and (min-width: 300px) and (max-width: 820px)  {
+@media only screen and (min-width: 300px) and (max-width: 750px)  {
 
 
     /*
@@ -477,7 +488,7 @@ Olympics
 
 
     .indexVSALogo {
-        padding-top: 10%;
+
         width: 30%;
     }
 
@@ -520,6 +531,12 @@ Olympics
     /*
     * Index 
     */
+
+    .pillarBold {
+        font-size: 9vw;
+        font-weight: bold;
+    }
+
 
     .carouselHeight1{
         height: 40vh;
@@ -646,6 +663,11 @@ Olympics
     .container {
         width: 50%;
     }
+    
+     .pillarBold {
+        font-size: 4vw;
+        font-weight: bold;
+    }
 
     .vsaLogo {
         width: 8vw;
@@ -695,7 +717,7 @@ Olympics
 }
 
 /* Tablet Devices */
-@media only screen and (min-width: 900px) and (max-width: 1400px)  {
+@media only screen and (min-width: 751px) and (max-width: 1400px)  {
 
     /*
     All
@@ -720,7 +742,8 @@ Olympics
         padding-top: 20vh;
         padding-bottom: 20vh;
     }
-
+    
+    
 
 
     /*
