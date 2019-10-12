@@ -409,6 +409,10 @@ NIS
     border-radius: 00%;
 }
 
+.NISCardIMG {
+    height: 50vh;
+}
+
 .nameFont2 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
