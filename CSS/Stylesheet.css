@@ -83,6 +83,7 @@ display: block !important;
 .pillarBold {
     font-size: 2vw;
     font-weight: bold;
+ 
 }
 
 .pillarFontSize {
@@ -90,6 +91,12 @@ display: block !important;
     text-align: center;
 
 }
+
+ u {
+    text-decoration: none;
+    border-bottom: 3px solid black;
+
+  }
 
 span {
     border-bottom: 2px solid black;
