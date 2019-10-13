@@ -160,6 +160,12 @@ span {
     padding-bottom: 10%;
 }
 
+.footerSpacing {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    font-weight: 400;
+}
+
 
 
 .grayBackground {
