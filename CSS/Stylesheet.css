@@ -89,7 +89,7 @@ display: block !important;
 }
 
 .pillarFontSize {
-    font-size: 10vh;
+    font-size: 15vh;
     text-align: center;
 
 }
@@ -808,8 +808,14 @@ Olympics
     */ 
 
     .paddingTopAndBottom {
-        padding-top: 20vh;
-        padding-bottom: 20vh;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+
+    .pillarFontSize {
+        font-size: 10vh;
+        text-align: center;
+
     }
 
 
@@ -851,8 +857,8 @@ Olympics
         margin-right: auto;
         margin-left: auto;
     }
-    
-     .introText {
+
+    .introText {
         font-family: 'Roboto', sans-serif;
         font-size: 3vh;
         font-weight: 400;
