@@ -2,6 +2,8 @@
 * All pages 
 */
 
+
+
 /* Underline From Center */
 .hvr-underline-from-center {
     display: inline-block;
@@ -367,6 +369,34 @@ Executive Board Page
 NIS
 */
 
+.NISFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+#timer {
+    font-size: 30%;
+}
+
+.NISTitle {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12vh;
+    color: white;
+
+}
+
+.NISTitle2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10vh;
+    color: white;
+
+}
+
+
+.NISSubTitle {
+    font-size: 30%;
+}
+
 .containerNIS {
     width: 50%;
     padding-right: 15px;
@@ -376,13 +406,16 @@ NIS
 }
 
 
+
 .NISBGImg {
-    width:100vw;
-    height: 100vh; 
-    background-image:  url(../Images/NIS/Photo2.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/NIS/Photo.jpg');
+    background-size: cover;
     background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .NISBGImg2 {
@@ -394,12 +427,7 @@ NIS
     background-position: center bottom;
 }
 
-.NISTitle {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 10vh;
-    color: white;
 
-}
 
 .paddingTop {
     padding-top: 5vh;
@@ -642,13 +670,26 @@ Olympics
     * NIS
     */
 
+    .introText {
+        font-family: 'Roboto', sans-serif;
+        font-size: 3vh;
+        font-weight: 400;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
     .NISTitle {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 8vh;
+        color: white;
+
+    }
+
+    .NISTitle2 {
         font-family: 'Quicksand', sans-serif;
         font-size: 10vh;
         color: white;
         padding-bottom: 35vh;
-
-
     }
 
     .containerNIS {
@@ -699,6 +740,13 @@ Olympics
         object-fit:cover;
     }
 
+    .introText {
+        font-family: 'Roboto', sans-serif;
+        font-size: 3vh;
+        font-weight: 400;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
     .containerEBoard {
         width: 50%;
         padding-right: 15px;
@@ -794,6 +842,14 @@ Olympics
         padding-left: 15px;
         margin-right: auto;
         margin-left: auto;
+    }
+    
+     .introText {
+        font-family: 'Roboto', sans-serif;
+        font-size: 3vh;
+        font-weight: 400;
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
 
 
