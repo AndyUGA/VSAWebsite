@@ -527,6 +527,23 @@ Olympics
 }
 
 
+/*
+Awards
+*/
+
+.bgImg1 {
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/WhoWeAre/Awards/backgroundIMG.jpg');
+    background-size: cover;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
 
 
 
