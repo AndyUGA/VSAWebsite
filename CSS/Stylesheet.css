@@ -531,7 +531,7 @@ Olympics
 Awards
 */
 
-.bgImg1 {
+.AwardsBGIMG {
     height: 100vh;
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/WhoWeAre/Awards/backgroundIMG.jpg');
     background-size: cover;
