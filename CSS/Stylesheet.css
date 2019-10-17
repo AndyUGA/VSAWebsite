@@ -544,7 +544,20 @@ Awards
 
 
 
+/*
+Partners
+*/
 
+.partnersBG {
+        height: 100vh;
+        background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/WhoWeAre/Partners/UVSASEBG3.jpg');
+        background-size: cover;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size:  cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 
 
 
@@ -817,10 +830,10 @@ Awards
         margin-right: auto;
         margin-left: auto;
     }
-    
+
     .AwardsLogo {
-    width: 100%;
-}
+        width: 100%;
+    }
 
 
 }
@@ -914,6 +927,8 @@ Awards
         font-weight: bold;
         color: black;
     }
+
+    
 
     /*
     ACE
