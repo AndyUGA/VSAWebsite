@@ -262,9 +262,7 @@ Who We Are
     background-position: center bottom;
 }
 
-.aboutUsLogo {
-    width: 50%;
-}
+
 
 .partnersLogo {
     width: 30%;
@@ -274,9 +272,7 @@ Who We Are
     font-size: 25vw;
 }
 
-.UNAVSA {
-    width: 50%;
-}
+
 
 .ParternsTitle {
     font-family: 'Quicksand', sans-serif;
@@ -540,6 +536,10 @@ Awards
     -moz-background-size:  cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.AwardsLogo {
+    width: 50%;
 }
 
 
@@ -817,6 +817,11 @@ Awards
         margin-right: auto;
         margin-left: auto;
     }
+    
+    .AwardsLogo {
+    width: 100%;
+}
+
 
 }
 
