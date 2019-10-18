@@ -291,6 +291,12 @@ Who We Are
 Executive Board Page
 */
 
+.maxCardWidth {
+
+    max-width: 40%;
+
+}
+
 .execBoardBGImg {
     height: 100vh;
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/ExecBoard/Everyone.jpg');
@@ -324,8 +330,12 @@ Executive Board Page
 
 }
 
+.execboardMarginRight {
+    margin-right: 5%;
+}
+
 .containerEBoard {
-    width: 30%;
+    width: 80%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -354,6 +364,7 @@ Executive Board Page
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     font-size: 4vh;
+
 }
 
 .positionFont {
@@ -487,6 +498,7 @@ Ace Program
 
 .cardFont {
     font-size: 3vh;
+    min-height: 100%;
 }
 
 .aceIMG {
@@ -549,19 +561,19 @@ Partners
 */
 
 .partnersBG {
-        height: 100vh;
-        background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/WhoWeAre/Partners/UVSASEBG3.jpg');
-        background-size: cover;
-        background-position: center center;
-        -webkit-background-size: cover;
-        -moz-background-size:  cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/WhoWeAre/Partners/UVSASEBG3.jpg');
+    background-size: cover;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 .partnersImgWidth {
-        width: 50%;
-    }
+    width: 50%;
+}
 
 .minCardHeight {
     min-height: 100%;
@@ -695,9 +707,21 @@ Partners
         padding-bottom: 20vh;
     }
 
+    .maxCardWidth {
+
+        max-width: 100%;
+
+    }
+
     .cardWidth {
         width: 90%;
     }
+
+    .execboardMarginRight {
+        margin-right: 0%;
+    }
+
+
 
     .containerEBoard {
         width: 90%;
@@ -762,20 +786,20 @@ Partners
         margin-right: auto;
         margin-left: auto;
     }
-    
+
     /*
     Partners
     */
-    
+
     .partnersPaddingTop {
         padding-top: 10%;
     }
-    
+
     .partnersPaddingBottom {
         padding-bottom: 10%;
     }
-    
-    
+
+
 
 
 }
@@ -898,6 +922,10 @@ Partners
     Exec
     */
 
+    .execboardMarginRight {
+        margin-right: 5%;
+    }
+
     .minHeight {
         min-height: 100vh;
     }
@@ -906,12 +934,19 @@ Partners
         margin-top: 5vh;
     }
 
+    .nameFont {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700;
+        font-size: 3vh;
+
+    }
+
     .cardWidth {
         width: 70%;
     }
 
     .containerEBoard {
-        width: 80%;
+        width: 100%;
         padding-right: 15px;
         padding-left: 15px;
         margin-right: auto;
@@ -949,16 +984,16 @@ Partners
         font-weight: bold;
         color: black;
     }
-    
-     .partnersPaddingTop {
+
+    .partnersPaddingTop {
         padding-top: 10%;
     }
-    
+
     .partnersPaddingBottom {
         padding-bottom: 10%;
     }
 
-    
+
 
     /*
     ACE
