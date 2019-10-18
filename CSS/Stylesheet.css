@@ -559,6 +559,14 @@ Partners
         background-size: cover;
     }
 
+.partnersImgWidth {
+        width: 50%;
+    }
+
+.minCardHeight {
+    min-height: 100%;
+}
+
 
 
 
@@ -754,7 +762,20 @@ Partners
         margin-right: auto;
         margin-left: auto;
     }
-
+    
+    /*
+    Partners
+    */
+    
+    .partnersPaddingTop {
+        padding-top: 10%;
+    }
+    
+    .partnersPaddingBottom {
+        padding-bottom: 10%;
+    }
+    
+    
 
 
 }
@@ -838,7 +859,8 @@ Partners
 
 }
 
-/* Tablet Devices */
+/* Tablet Devices (iPad) */
+
 @media only screen and (min-width: 768px) and (max-width: 1366px) and (min-height: 768px) and (max-height: 1366px) {
 
     /*
@@ -926,6 +948,14 @@ Partners
         font-size: 5vh;
         font-weight: bold;
         color: black;
+    }
+    
+     .partnersPaddingTop {
+        padding-top: 10%;
+    }
+    
+    .partnersPaddingBottom {
+        padding-bottom: 10%;
     }
 
     
