@@ -390,6 +390,11 @@ NIS
     font-size: 30%;
 }
 
+.paddingTopAndBottom {
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+
 .NISTitle {
     font-family: 'Quicksand', sans-serif;
     font-size: 12vh;
@@ -780,7 +785,7 @@ Partners
 
 
     .ACEContainer {
-        width: 80%;
+        width: 60%;
         padding-right: 15px;
         padding-left: 15px;
         margin-right: auto;
