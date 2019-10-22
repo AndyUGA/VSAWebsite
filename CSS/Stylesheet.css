@@ -376,6 +376,16 @@ Executive Board Page
 
 .videoFont {
     font-size: 5vw;
+    white-space: nowrap;
+}
+
+.NISvideoFont {
+    font-size: 4vw;
+    white-space: nowrap;
+}
+
+.minWidth30 {
+    min-width: 30vw;
 }
 
 
@@ -590,7 +600,7 @@ Partners
 
 
 
-/* Mobile Devices */
+/* Mobile Devices (iPhone) */
 @media only screen and (min-width: 300px) and (max-width: 767px)  {
 
 
@@ -786,6 +796,13 @@ Partners
         margin-left: auto;
     }
 
+    .NISvideoFont {
+        font-size: 12vw;
+        white-space: nowrap;
+    }
+
+
+
     /*
     Ace Program
     */
@@ -868,6 +885,10 @@ Partners
         padding-left: 15px;
         margin-right: auto;
         margin-left: auto;
+    }
+
+    .minWidth30 {
+        min-width: 40vw;
     }
 
     .cardFont {
@@ -984,6 +1005,16 @@ Partners
         font-weight: 400;
 
     }
+
+    .NISvideoFont {
+        font-size: 7vw;
+        white-space: nowrap;
+    }
+
+    .minWidth30 {
+        min-width: 40vw;
+    }
+
 
 
     /*
