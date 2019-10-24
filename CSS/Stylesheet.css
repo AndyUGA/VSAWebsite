@@ -269,9 +269,6 @@ Who We Are
 
 
 
-.partnersLogo {
-    width: 30%;
-}
 
 .fontAwesomeFont {
     font-size: 25vw;
@@ -279,14 +276,7 @@ Who We Are
 
 
 
-.ParternsTitle {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 10vh;
-    font-weight: bold;
-    color: black;
 
-
-}
 
 
 
@@ -602,8 +592,26 @@ Partners
     width: 50%;
 }
 
+.partnersLogo {
+    width: 30%;
+}
+
+.ParternsTitle {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10vh;
+    font-weight: bold;
+    color: black;
+
+
+}
+
 .minCardHeight {
     min-height: 100%;
+}
+
+.minCardHeight50 {
+    min-height: 50%;
+    height:50%;
 }
 
 
@@ -857,6 +865,12 @@ Partners
     .container {
         width: 50%;
     }
+    
+    .landScapepaddingTopAndBottom {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+  
 
     .pillarBold {
         font-size: 3vw;
@@ -938,6 +952,8 @@ Partners
 
 
 }
+
+
 
 /* Tablet Devices (iPad) */
 
