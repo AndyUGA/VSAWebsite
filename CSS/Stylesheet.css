@@ -3,6 +3,10 @@
 */
 
 
+.testHeight {
+    height: 100vh;
+}
+
 /* Underline From Center */
 .hvr-underline-from-center {
     display: inline-block;
@@ -215,6 +219,10 @@ a:hover {
 }
 
 .minHeight50 {
+    min-height: 50vh!important;
+}
+
+.minHeight70 {
     min-height: 70vh;   
 }
 
@@ -571,6 +579,15 @@ Awards
     width: 50%;
 }
 
+.minHeightAwards {
+    min-height: 100%;
+}
+
+.minimumWidth {
+    min-width: 100vw;
+}
+
+
 
 
 /*
@@ -603,6 +620,10 @@ Partners
     color: black;
 
 
+}
+
+.partnerTitleFont {
+    font-size: 8vw;
 }
 
 .minCardHeight {
@@ -642,7 +663,7 @@ Partners
         font-size: 30vw;
         margin-bottom: 5vh;
     }
-    
+
     .fontAwesomeClear {
         display: none;
     }
@@ -854,6 +875,10 @@ Partners
         padding-bottom: 10%;
     }
 
+    .partnerTitleFont {
+        font-size: 20vw;
+    }
+
 
 
 
@@ -865,12 +890,12 @@ Partners
     .container {
         width: 50%;
     }
-    
+
     .landScapepaddingTopAndBottom {
         padding-top: 10%;
         padding-bottom: 10%;
     }
-  
+
 
     .pillarBold {
         font-size: 3vw;
@@ -944,7 +969,7 @@ Partners
     .AwardsLogo {
         width: 100%;
     }
-    
+
     .fontAwesomeIcon {
         font-size: 5vw;
         margin-bottom: 5vh;
@@ -973,8 +998,8 @@ Partners
     .container {
         width: 90%;
     }  
-    
-     .fontAwesomeIcon {
+
+    .fontAwesomeIcon {
         font-size: 10vw;
         margin-bottom: 5vh;
     }
@@ -1058,7 +1083,7 @@ Partners
     .minWidth30 {
         min-width: 40vw;
     }
-    
+
     .NISPadding {
         padding-top: 10%;
         padding-bottom: 10%;
