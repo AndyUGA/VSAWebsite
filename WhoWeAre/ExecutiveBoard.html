@@ -89,7 +89,7 @@
                 <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
 
                     <div class="btn-group" role="group">
-                        <button onclick="updateYear()" id="btnGroupDrop1" type="button" class="execYear btn btn-lg btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button id="btnGroupDrop1" type="button" class="execYear btn btn-lg btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             2019 / 2020
                         </button>
                         <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
@@ -254,25 +254,25 @@
     function update2018() {
         updateYear2018();
         $(".president").attr("src","../Images/ExecBoard/2018/Summer.jpg");
-        $(".president").text("Summer Phung");
+        $(".president").text(`Summer Phung`);
 
         $(".vicePresident").attr("src","../Images/ExecBoard/2018/My.jpg");
-        $(".vicePresident").text("My Nguyen");
+        $(".vicePresident").html("My <br> Nguyen");
 
         $(".externalVicePresident").attr("src","../Images/ExecBoard/2018/Andy.jpg");
-        $(".externalVicePresident").text("Andy Ni");
+        $(".externalVicePresident").html("Andy <br> Ni");
 
         $(".treasurer").attr("src","../Images/ExecBoard/2018/Amy.jpg");
-        $(".treasurer").text("Amy Tran");
+        $(".treasurer").html("Amy <br> Tran");
 
         $(".secretary").attr("src","../Images/ExecBoard/2018/Nhilynn.jpg");
-        $(".secretary").text("Nhilynn Nguyen")
+        $(".secretary").html("Nhilynn <br> Nguyen")
 
         $(".publicRelations").attr("src","../Images/ExecBoard/2018/Lillian.jpg");
-        $(".publicRelations").text("Lillian Le");
+        $(".publicRelations").html("Lillian <br> Le");
 
         $(".historian").attr("src","../Images/ExecBoard/2018/Steven.jpg");
-        $(".historian").text("Steven Tran");
+        $(".historian").html("Steven <br> Tran");
 
     }
     function update2019() {
@@ -281,22 +281,22 @@
         $(".president").text("Tammy Pham");
 
         $(".vicePresident").attr("src","../Images/ExecBoard/Tony.jpg");
-        $(".vicePresident").text("Tony Vu");
+        $(".vicePresident").html("Tony <br> Vu");
 
         $(".externalVicePresident").attr("src","../Images/ExecBoard/Austin.jpg");
-        $(".externalVicePresident").text("Austin Tran");
+        $(".externalVicePresident").html("Austin <br> Tran");
         
         $(".treasurer").attr("src","../Images/ExecBoard/Chasitie.jpg");
-        $(".treasurer").text("Chasitie Trinh");
+        $(".treasurer").html("Chasitie <br> Trinh");
         
         $(".secretary").attr("src","../Images/ExecBoard/Ken.jpg");
-        $(".secretary").text("Ken Duong");
+        $(".secretary").html("Ken <br> Duong");
         
         $(".publicRelations").attr("src","../Images/ExecBoard/Sabrina.jpg");
-        $(".publicRelations").text("Sabrina Lee");
+        $(".publicRelations").html("Sabrina <br> Lee");
         
         $(".historian").attr("src","../Images/ExecBoard/Dominic.jpg");
-        $(".historian").text("Dominic Nguyen");
+        $(".historian").html("Dominic <br> Nguyen");
     }
 
 
