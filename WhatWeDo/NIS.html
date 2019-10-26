@@ -112,17 +112,30 @@
         </div>
 
 
+        <div class = "text-center pt-3">
+                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
 
+                    <div class="btn-group" role="group">
+                        <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            2019 / 2020
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <a class="dropdown-item" onclick="updateIMG()" > 2018 / 2019</a>
+                            <a class="dropdown-item" onclick="updateIMG2()"> 2019 / 2020</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         <div class="containerNIS">
             <div class="row">
                 <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS paddingBottomNIS ">
                     <div class="card border-dark h-100">
-
+                        
                         <div class="card-body">
                             <h4 class="nameFont2 text-center"> Amy Tran </h4>
                             <h5 class="positionFont text-center"> Executive Director  </h5>
                         </div>
-                        <img class="card-img-top NISborderRadius" src="../Images/NIS/NIS2019/Amy.jpg" alt="Card image cap">
+                        <img class="director card-img-top " src="../Images/NIS/NIS2019/Amy.jpg" alt="Card image cap">
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS paddingBottomNIS" >
@@ -326,4 +339,15 @@
             document.getElementById("timer").innerHTML = "EXPIRED";
         }
     }, 1000);
+    
+    function updateIMG() {
+         $(".director").attr("src","../Images/NIS/NIS2019/Amy.jpg");
+    }
+    
+    function updateIMG2() {
+         $(".director").attr("src","../Images/NIS/NIS2018/Alex.jpg");
+    }
+   
+
+
 </script>

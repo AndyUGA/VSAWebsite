@@ -481,7 +481,7 @@ NIS
 }
 
 .NISborderRadius {
-    border-radius: 00%;
+    border-radius: 0%;
 }
 
 .NISCardIMG {
@@ -800,6 +800,8 @@ Partners
         max-width: 100%;
 
     }
+    
+    
 
     .cardWidth {
         width: 90%;
