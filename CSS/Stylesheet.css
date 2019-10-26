@@ -3,8 +3,17 @@
 */
 
 
-.testHeight {
-    height: 100vh;
+.viewHeight20 {
+    min-height: 10vh;
+}
+
+
+.viewHeight50 {
+    min-height: 30vh;
+}
+
+.minHeight70 {
+    min-height: 40vh;   
 }
 
 /* Underline From Center */
@@ -208,7 +217,10 @@ a:hover {
     text-decoration: none;
 }
 
-
+.indexPaddingTopAndBottom {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 
 .socialMediaIcons {
     color: red;
@@ -222,9 +234,7 @@ a:hover {
     min-height: 50vh!important;
 }
 
-.minHeight70 {
-    min-height: 70vh;   
-}
+
 
 
 .footerPadding {
@@ -906,7 +916,7 @@ Partners
 
 
     .pillarBold {
-        font-size: 3vw;
+        font-size: 5vw;
         font-weight: bold;
     }
 
