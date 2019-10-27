@@ -53,10 +53,6 @@
     background-color: black!important;
 }
 
-
-a:hover {
-    color: #F2F2F2;
-}
 body { 
     font-family: 'Quicksand', sans-serif;
     overflow-x: hidden;
@@ -226,6 +222,10 @@ a:hover {
     color: red;
 }
 
+.socialMediaIcons:hover {
+    color: black;
+}
+
 .minHeight40 {
     min-height: 40vh;
 }
@@ -291,11 +291,6 @@ Who We Are
 .fontAwesomeFont {
     font-size: 25vw;
 }
-
-
-
-
-
 
 
 
