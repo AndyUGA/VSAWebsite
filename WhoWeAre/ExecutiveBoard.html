@@ -85,25 +85,19 @@
 
 
         <div class = "grayBackground"> 
-            <div class = "text-center pt-3">
-                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
 
-                    <div class="btn-group" role="group">
-                        <button id="btnGroupDrop1" type="button" class="execYear btn btn-lg btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            2019 / 2020
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                            <a class="dropdown-item" onclick="update2019()"> 2019 / 2020</a>
-                             <a class="dropdown-item" onclick="update2018()" > 2018 / 2019</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class = "containerEBoard"> 
 
                 <div class="container">
                     <div class="row d-flex justify-content-center no-gutters">
                         <div class="card maxCardWidth border-secondary marginTop col-md-12 ">
+                            <button id="btnGroupDrop1" type="button" class="execYear btn btn-lg btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                2019 / 2020
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <a class="dropdown-item" onclick="update2019()"> 2019 / 2020</a>
+                                <a class="dropdown-item" onclick="update2018()" > 2018 / 2019</a>
+                            </div>
                             <div class="card-body text-center ">
                                 <h3 class="card-title nameFont president">Tammy Pham</h3>
                                 <h4 class="card-text positionFont"> President
@@ -241,16 +235,16 @@
 </html>
 
 <script> 
-    
+
     function updateYear2018() {
         $(".execYear").text("2018 / 2019")
     }
-    
+
     function updateYear2019() {
         $(".execYear").text("2019 / 2020")
     }
-    
-    
+
+
     function update2018() {
         updateYear2018();
         $(".president").attr("src","../Images/ExecBoard/2018/Summer.jpg");
@@ -285,16 +279,16 @@
 
         $(".externalVicePresident").attr("src","../Images/ExecBoard/Austin.jpg");
         $(".externalVicePresident").html("Austin <br> Tran");
-        
+
         $(".treasurer").attr("src","../Images/ExecBoard/Chasitie.jpg");
         $(".treasurer").html("Chasitie <br> Trinh");
-        
+
         $(".secretary").attr("src","../Images/ExecBoard/Ken.jpg");
         $(".secretary").html("Ken <br> Duong");
-        
+
         $(".publicRelations").attr("src","../Images/ExecBoard/Sabrina.jpg");
         $(".publicRelations").html("Sabrina <br> Lee");
-        
+
         $(".historian").attr("src","../Images/ExecBoard/Dominic.jpg");
         $(".historian").html("Dominic <br> Nguyen");
     }
