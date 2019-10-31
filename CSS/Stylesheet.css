@@ -18,6 +18,10 @@
     min-height: 40vh;   
 }
 
+.minHeight80 {
+    min-height: 80vh;   
+}
+
 /* Underline From Center */
 .hvr-underline-from-center {
     display: inline-block;
@@ -895,6 +899,14 @@ Partners
 
     .partnerTitleFont {
         font-size: 20vw;
+    }
+    
+    /*
+    Olympics
+    */
+    
+    .olympicsContainer {
+        width: 100%;
     }
 
 
