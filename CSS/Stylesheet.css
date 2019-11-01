@@ -139,7 +139,7 @@ span {
 
 .bgImg1 {
     height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/HomepageBackgrounds/FieldDay.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/HomepageBackgrounds/FieldDay.jpg');
     background-size: cover;
     background-position: center center;
     -webkit-background-size: cover;
@@ -273,7 +273,7 @@ Who We Are
 
 .WhoWeAreBGImg {
     height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/WhoWeAre/MainBG.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/WhoWeAre/MainBG.jpg');
     background-size: cover;
     background-position: center center;
     -webkit-background-size: cover;
@@ -313,7 +313,7 @@ Executive Board Page
 
 .execBoardBGImg {
     height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/ExecBoard/Everyone.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/ExecBoard/Everyone.jpg');
     background-size: cover;
     background-position: center center;
     -webkit-background-size: cover;
@@ -325,7 +325,7 @@ Executive Board Page
 
 .execBoardBGImg2 {
     height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/ExecBoard/Everyone2.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/ExecBoard/Everyone2.jpg');
     background-size: cover;
     background-position: center center;
     -webkit-background-size: cover;
@@ -452,7 +452,7 @@ NIS
 
 .NISBGImg {
     height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/NIS/Photo.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/NIS/Photo.jpg');
     background-size: cover;
     background-position: center center;
     -webkit-background-size: cover;
@@ -503,7 +503,7 @@ Ace Program
 .AceBGIMG {
 
     height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/ACE/LandingBG.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/ACE/LandingBG.jpg');
     background-size: cover;
     background-position: center center;
     -webkit-background-size: cover;
@@ -515,7 +515,7 @@ Ace Program
 .AceBGIMG2 {
 
     height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/ACE/LandingBG2.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/ACE/LandingBG2.jpg');
     background-size: cover;
     background-position: center top;
     -webkit-background-size: cover;
@@ -549,7 +549,7 @@ Olympics
 .OlmypicsBGIMG {
 
     height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/Olmypics/BgIMG4.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/Olmypics/BgIMG4.jpg');
     background-size: cover;
     background-position: center center;
     -webkit-background-size: cover;
@@ -561,7 +561,7 @@ Olympics
 .OlmypicsBGIMG2 {
 
     height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/Olmypics/BgIMG5.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/Olmypics/BgIMG5.jpg');
     background-size: cover;
     background-position: center center;
     -webkit-background-size: cover;
@@ -577,7 +577,7 @@ Awards
 
 .AwardsBGIMG {
     height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/WhoWeAre/Awards/backgroundIMG.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/WhoWeAre/Awards/backgroundIMG.jpg');
     background-size: cover;
     background-position: center center;
     -webkit-background-size: cover;
@@ -613,7 +613,7 @@ Partners
 
 .partnersBG {
     height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/WhoWeAre/Partners/UVSASEBG3.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/WhoWeAre/Partners/UVSASEBG3.jpg');
     background-size: cover;
     background-position: center center;
     -webkit-background-size: cover;
