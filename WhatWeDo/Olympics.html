@@ -1,149 +1,164 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <link rel= "stylesheet" href="../CSS/Stylesheet.css">
-        <link rel= "stylesheet" href="./CSS/Grid.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8">
-        <title> Olympics</title>
-        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand hvr-underline-from-center" href="../index.html"> 
-                <img class = "vsaLogo" src="../Images/Logo/WhiteLogo.png" alt=""> 
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="./WhoWeAre/WhoWeAre.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Who We Are
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" target = "_blank" href="../WhoWeAre/ExecutiveBoard.html"> Executive Board</a>
-                            <a class="dropdown-item" target = "_blank" href="../WhoWeAre/Partners.html"> Partners and Awards</a>
+<head>
 
-                        </div>
-                    </li>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../CSS/Stylesheet.css">
+    <link rel="stylesheet" href="./CSS/Grid.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title> Olympics</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand hvr-underline-from-center" href="../index.html">
+            <img class="vsaLogo" src="../Images/Logo/WhiteLogo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./WhoWeAre/WhoWeAre.html" id="navbarDropdown"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Who We Are
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" target="_blank" href="../WhoWeAre/ExecutiveBoard.html"> Executive
+                            Board</a>
+                        <a class="dropdown-item" target="_blank" href="../WhoWeAre/Partners.html"> Partners and
+                            Awards</a>
+
+                    </div>
+                </li>
 
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            What We Do
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        What We Do
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                            <!--<a target = "_blank" class="dropdown-item" href="./CPP.html"> Collective Philanthropy Project</a>-->
-                            <a target = "_blank" class="dropdown-item" href="./AceProgram.html"> ACE Program</a>
-                            <a target = "_blank" class="dropdown-item" href="./NIS.html"> Night in Saigon</a>
-                        </div>
-                    </li>
+                        <!--<a target = "_blank" class="dropdown-item" href="./CPP.html"> Collective Philanthropy Project</a>-->
+                        <a target="_blank" class="dropdown-item" href="./AceProgram.html"> ACE Program</a>
+                        <a target="_blank" class="dropdown-item" href="./NIS.html"> Night in Saigon</a>
+                    </div>
+                </li>
 
-                </ul>
-            </div>
-        </nav>
-        <div class='d-flex landingPageTitle OlmypicsBGIMG text-center justify-content-center align-items-center'> 
-            Olympics 
+            </ul>
         </div>
+    </nav>
+    <div class='d-flex landingPageTitle OlmypicsBGIMG text-center justify-content-center align-items-center'>
+        Olympics
+    </div>
 
-        <div class='d-flex justify-content-center align-items-center min-vh-100 '>
-            <div class = "introText text-left container"> 
-                <div class = "row "> 
-                    <div class = "text-center col-md-4">
-                        <i class="fas fa-futbol fontAwesomeIcon fontAwesomeClear"></i>
-                    </div>
-                    <div class = "text-center col-md-4">
-
-                        <i class="fas fa-football-ball fontAwesomeIcon "></i>
-                    </div>
-                    <div class = "text-center col-md-4 ">
-                        <i class="fas fa-volleyball-ball fontAwesomeIcon fontAwesomeClear"></i>
-                    </div>
+    <div class='d-flex justify-content-center align-items-center min-vh-100 '>
+        <div class="introText text-left container">
+            <div class="row ">
+                <div class="text-center col-md-4">
+                    <i class="fas fa-futbol fontAwesomeIcon fontAwesomeClear"></i>
                 </div>
-                <p class = "container olympicsContainer"> 
-                    VSA Olympics is a one day event that is hosted by the Union of the Vietnamese Student Asscoation of the South East (<a href="https://www.uvsase.org" target="_blank">UVSASE </a>). All of the VSAs in the South East region participate and it serves as an opportunity for members to strengthen connections within the region through <b> friendly competition </b>in volleyball, flag football, soccer, tug-of-war, and an obstacle course. 
-                    <br><br>
-                    By providing a lighthearted atmosphere filled with engaging activities, the goal is to promote <b> camaraderie</b> among our members while also highlighting physical fitness and ultimately having fun. 
+                <div class="text-center col-md-4">
 
+                    <i class="fas fa-football-ball fontAwesomeIcon "></i>
+                </div>
+                <div class="text-center col-md-4 ">
+                    <i class="fas fa-volleyball-ball fontAwesomeIcon fontAwesomeClear"></i>
+                </div>
+            </div>
+            <p class="container olympicsContainer">
+                VSA Olympics is a one day event that is hosted by the Union of the Vietnamese Student Asscoation of the
+                South East (<a href="https://www.uvsase.org" target="_blank">UVSASE </a>). All of the VSAs in the South
+                East region participate and it serves as an opportunity for members to strengthen connections within the
+                region through <b> friendly competition </b>in volleyball, flag football, soccer, tug-of-war, and an
+                obstacle course.
+                <br><br>
+                By providing a lighthearted atmosphere filled with engaging activities, the goal is to promote <b>
+                    camaraderie</b> among our members while also highlighting physical fitness and ultimately having
+                fun.
+
+            </p>
+        </div>
+    </div>
+
+
+    <div class='d-flex execTitle2 OlmypicsBGIMG2 text-center justify-content-center align-items-center '>
+        Olympics 2019
+    </div>
+
+
+    <div class="">
+        <h2 class="text-center videoFont pt-5 pb-5"> Olympics Recap </h2>
+
+        <div class="embed-responsive embed-responsive-16by9 container embeddedVideo mb-5">
+            <iframe width="260" height="315" src="https://www.youtube.com/embed/SNy9XaEZi14" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='d-flex justify-content-center align-items-center blackBackground '>
+        <div class="footerSpacing text-left row h-100 container">
+            <div class="container footerPadding col-md-6 ">
+
+                <p class="footerText "> /Contact Us!</p>
+                Feel free to stop by our office during one of our executive board's office hours!
+
+                <br> <br>
+
+                <p class="footerText"> /Where To Find Us</p>
+                210 Memorial Hall
+                Office
+                Athens GA, 30602
+            </div>
+            <div class="container footerPadding col-md-6">
+                <p class="footerText">
+                    /Follow Us!
                 </p>
-            </div>
-        </div>
 
-
-        <div class='d-flex execTitle2 OlmypicsBGIMG2 text-center justify-content-center align-items-center '> 
-            Olympics  2019
-        </div>
-
-
-        <div class = "">
-            <h2 class = "text-center videoFont pt-5 pb-5"> Olympics Recap </h2>
-
-            <div class="embed-responsive embed-responsive-16by9 container embeddedVideo mb-5">
-                <iframe width="260" height="315" src="https://www.youtube.com/embed/SNy9XaEZi14" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
-
-        <div class='d-flex justify-content-center align-items-center blackBackground '>
-            <div class = "footerSpacing text-left row h-100 container"> 
-                <div class = "container footerPadding col-md-6 "> 
-
-                    <p class = "footerText "> /Contact Us!</p>
-                    Feel free to stop by our office during one of our executive board's office hours!
-
-                    <br>  <br>  
-
-                    <p class = "footerText">  /Where To Find Us</p>
-                    210 Memorial Hall
-                    Office
-                    Athens GA, 30602
-                </div>
-                <div class = "container footerPadding col-md-6"> 
-                    <p class = "footerText">  
-                        /Follow Us! 
-                    </p>
-
-                    <a target = "_blank" class = "footerRemove colorATag pr-3" href="https://www.facebook.com/ugavsa/?tn-str=k*F">
-                        <i class="fab fa-facebook-f fa-lg"></i>
-                    </a>
-                    <a target = "_blank" class = "footerRemove colorATag pr-3" href="https://www.instagram.com/ugavsa/?hl=en">
-                        <i class="fab fa-instagram fa-lg"></i>
-                    </a>
-                    <a target = "_blank" class = "footerRemove colorATag pr-3" href="https://www.youtube.com/user/UGAVSA/videos">
-                        <i class="fab fa-youtube fa-lg"></i>
-                    </a>
-                    <a target = "_blank" class = "footerRemove colorATag pr-3" href="https://www.linkedin.com/company/ugavsa/about/">
-                        <i class="fab fa-linkedin-in fa-lg"></i>
-                    </a>
-
-                </div>
-
+                <a target="_blank" class="footerRemove colorATag pr-3"
+                    href="https://www.facebook.com/ugavsa/?tn-str=k*F">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                </a>
+                <a target="_blank" class="footerRemove colorATag pr-3" href="https://www.instagram.com/ugavsa/?hl=en">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </a>
+                <a target="_blank" class="footerRemove colorATag pr-3"
+                    href="https://www.youtube.com/user/UGAVSA/videos">
+                    <i class="fab fa-youtube fa-lg"></i>
+                </a>
+                <a target="_blank" class="footerRemove colorATag pr-3"
+                    href="https://www.linkedin.com/company/ugavsa/about/">
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                </a>
 
             </div>
+
+
         </div>
+    </div>
 
 
-
-  
-
-
-
-
-
-
-
-
-    </body>
+</body>
 
 
 </html>
-
