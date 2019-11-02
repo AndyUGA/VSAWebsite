@@ -1,4 +1,4 @@
-/*
+ /*
 * All pages 
 */
 
@@ -913,6 +913,11 @@ Partners
     .olympicsContainer {
         width: 100%;
     }
+
+    .awardsFont {
+        font-size: 120%;
+    }
+    
 
 
 
