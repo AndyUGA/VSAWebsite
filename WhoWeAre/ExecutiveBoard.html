@@ -24,6 +24,69 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
 </head>
 
+<script>
+
+    function updateYear2018() {
+        $(".execYear").text("2018 / 2019")
+    }
+
+    function updateYear2019() {
+        $(".execYear").text("2019 / 2020")
+    }
+
+
+    function update2018() {
+        updateYear2018();
+        $(".president").attr("src", "../Images/ExecBoard/2018/Summer.jpg");
+        $(".president").text(`Summer Phung`);
+
+        $(".vicePresident").attr("src", "../Images/ExecBoard/2018/My.jpg");
+        $(".vicePresident").html("My <br> Nguyen");
+
+        $(".externalVicePresident").attr("src", "../Images/ExecBoard/2018/Andy.jpg");
+        $(".externalVicePresident").html("Andy <br> Ni");
+
+        $(".treasurer").attr("src", "../Images/ExecBoard/2018/Amy.jpg");
+        $(".treasurer").html("Amy <br> Tran");
+
+        $(".secretary").attr("src", "../Images/ExecBoard/2018/Nhilynn.jpg");
+        $(".secretary").html("Nhilynn <br> Nguyen")
+
+        $(".publicRelations").attr("src", "../Images/ExecBoard/2018/Lillian.jpg");
+        $(".publicRelations").html("Lillian <br> Le");
+
+        $(".historian").attr("src", "../Images/ExecBoard/2018/Steven.jpg");
+        $(".historian").html("Steven <br> Tran");
+
+    }
+    function update2019() {
+        updateYear2019();
+        $(".president").attr("src", "../Images/ExecBoard/Tammy.jpg");
+        $(".president").text("Tammy Pham");
+
+        $(".vicePresident").attr("src", "../Images/ExecBoard/Tony.jpg");
+        $(".vicePresident").html("Tony <br> Vu");
+
+        $(".externalVicePresident").attr("src", "../Images/ExecBoard/Austin.jpg");
+        $(".externalVicePresident").html("Austin <br> Tran");
+
+        $(".treasurer").attr("src", "../Images/ExecBoard/Chasitie.jpg");
+        $(".treasurer").html("Chasitie <br> Trinh");
+
+        $(".secretary").attr("src", "../Images/ExecBoard/Ken.jpg");
+        $(".secretary").html("Ken <br> Duong");
+
+        $(".publicRelations").attr("src", "../Images/ExecBoard/Sabrina.jpg");
+        $(".publicRelations").html("Sabrina <br> Lee");
+
+        $(".historian").attr("src", "../Images/ExecBoard/Dominic.jpg");
+        $(".historian").html("Dominic <br> Nguyen");
+    }
+
+    update2018();
+    update2019();
+
+</script>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand hvr-underline-from-center" href="../index.html">
@@ -113,7 +176,7 @@
 
                         <div class="btn-group dropdown" role="group">
                             <button id="btnGroupDrop1" type="button"
-                                class="execYear btn btn-lg btn-dark dropdown-toggle" data-toggle="dropdown"
+                                class="execYear btn btn-lg btn-dark dropdown-toggle p-4" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">
                                 2019 / 2020
                             </button>
@@ -270,66 +333,3 @@
 
 </html>
 
-<script>
-
-    function updateYear2018() {
-        $(".execYear").text("2018 / 2019")
-    }
-
-    function updateYear2019() {
-        $(".execYear").text("2019 / 2020")
-    }
-
-
-    function update2018() {
-        updateYear2018();
-        $(".president").attr("src", "../Images/ExecBoard/2018/Summer.jpg");
-        $(".president").text(`Summer Phung`);
-
-        $(".vicePresident").attr("src", "../Images/ExecBoard/2018/My.jpg");
-        $(".vicePresident").html("My <br> Nguyen");
-
-        $(".externalVicePresident").attr("src", "../Images/ExecBoard/2018/Andy.jpg");
-        $(".externalVicePresident").html("Andy <br> Ni");
-
-        $(".treasurer").attr("src", "../Images/ExecBoard/2018/Amy.jpg");
-        $(".treasurer").html("Amy <br> Tran");
-
-        $(".secretary").attr("src", "../Images/ExecBoard/2018/Nhilynn.jpg");
-        $(".secretary").html("Nhilynn <br> Nguyen")
-
-        $(".publicRelations").attr("src", "../Images/ExecBoard/2018/Lillian.jpg");
-        $(".publicRelations").html("Lillian <br> Le");
-
-        $(".historian").attr("src", "../Images/ExecBoard/2018/Steven.jpg");
-        $(".historian").html("Steven <br> Tran");
-
-    }
-    function update2019() {
-        updateYear2019();
-        $(".president").attr("src", "../Images/ExecBoard/Tammy.jpg");
-        $(".president").text("Tammy Pham");
-
-        $(".vicePresident").attr("src", "../Images/ExecBoard/Tony.jpg");
-        $(".vicePresident").html("Tony <br> Vu");
-
-        $(".externalVicePresident").attr("src", "../Images/ExecBoard/Austin.jpg");
-        $(".externalVicePresident").html("Austin <br> Tran");
-
-        $(".treasurer").attr("src", "../Images/ExecBoard/Chasitie.jpg");
-        $(".treasurer").html("Chasitie <br> Trinh");
-
-        $(".secretary").attr("src", "../Images/ExecBoard/Ken.jpg");
-        $(".secretary").html("Ken <br> Duong");
-
-        $(".publicRelations").attr("src", "../Images/ExecBoard/Sabrina.jpg");
-        $(".publicRelations").html("Sabrina <br> Lee");
-
-        $(".historian").attr("src", "../Images/ExecBoard/Dominic.jpg");
-        $(".historian").html("Dominic <br> Nguyen");
-    }
-
-
-
-
-</script>
