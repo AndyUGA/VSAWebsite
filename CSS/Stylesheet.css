@@ -319,19 +319,18 @@ Executive Board Page
     -webkit-background-size: cover;
     -moz-background-size:  cover;
     -o-background-size: cover;
-    background-size: cover;
+ 
 
 }
 
 .execBoardBGImg2 {
-    height: 100vh;
+    height: 120vh;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/ExecBoard/Everyone2.jpg');
     background-size: cover;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size:  cover;
     -o-background-size: cover;
-    background-size: cover;
 }
 
 
@@ -806,6 +805,16 @@ Partners
         max-width: 100%;
 
     }
+
+    .execBoardBGImg2 {
+        height: 100vh;
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/ExecBoard/Everyone2.jpg');
+        background-size: cover;
+        background-position: center  center;
+        background-repeat: no-repeat;
+    }
+
+  
     
     
 
