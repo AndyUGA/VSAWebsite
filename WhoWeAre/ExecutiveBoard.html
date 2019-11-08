@@ -34,6 +34,97 @@
         $(".execYear").text("2019 / 2020")
     }
 
+    function updateYear2017() {
+        $(".execYear").text("2017 / 2018")
+    }
+
+    function updateYear2016() {
+        $(".execYear").text("2016 / 2017")
+    }
+
+    function updateYear2015() {
+        $(".execYear").text("2015 / 2016")
+    }
+
+    function update2015() {
+        updateYear2015();
+
+
+        $(".president").attr("src", "../Images/ExecBoard/2015/Crystal.jpg");
+        $(".president").text(`Crystal Le`);
+
+        $(".vicePresident").attr("src", "../Images/ExecBoard/2015/Viet.jpg");
+        $(".vicePresident").html("Viet <br> Nguyen");
+
+        $(".externalVicePresident").empty();
+
+
+        $(".treasurer").attr("src", "../Images/ExecBoard/2015/Quynh.jpg");
+        $(".treasurer").html("Quynh <br> Do");
+
+        $(".secretary").attr("src", "../Images/ExecBoard/2015/Christina.jpg");
+        $(".secretary").html("Christina <br> Kim")
+
+        $(".publicRelations").attr("src", "../Images/ExecBoard/2015/Chi.jpg");
+        $(".publicRelations").html("Chi <br> Nguyen");
+
+
+    }
+
+    function update2016() {
+        updateYear2016();
+
+
+        $(".president").attr("src", "../Images/ExecBoard/2016/Brian.jpg");
+        $(".president").text(`Brian Xu`);
+
+        $(".vicePresident").attr("src", "../Images/ExecBoard/2016/Lori.jpg");
+        $(".vicePresident").html("Lori <br> Tran");
+
+        $(".externalVicePresident").attr("src", "../Images/ExecBoard/2016/May.jpg");
+        $(".externalVicePresident").html("May <br> Huynh");
+
+        $(".treasurer").attr("src", "../Images/ExecBoard/2016/Helen.jpg");
+        $(".treasurer").html("Helen <br> Pham");
+
+        $(".secretary").attr("src", "../Images/ExecBoard/2016/Jody.jpg");
+        $(".secretary").html("Jody <br> Dinh")
+
+        $(".publicRelations").attr("src", "../Images/ExecBoard/2016/Juliana.jpg");
+        $(".publicRelations").html("Juliana <br> Nguyen");
+
+        $(".historian").attr("src", "../Images/ExecBoard/2016/Summer.jpg");
+        $(".historian").html("Summer <br> Phung");
+
+    }
+
+    function update2017() {
+        updateYear2017();
+
+
+        $(".president").attr("src", "../Images/ExecBoard/2017/Jody.jpg");
+        $(".president").text(`Jody Dinh`);
+
+        $(".vicePresident").attr("src", "../Images/ExecBoard/2017/Jackson.jpg");
+        $(".vicePresident").html("Jackson <br> Nguyen");
+
+        $(".externalVicePresident").attr("src", "../Images/ExecBoard/2017/Summer.jpg");
+        $(".externalVicePresident").html("Summer <br> Phung");
+
+        $(".treasurer").attr("src", "../Images/ExecBoard/2017/Helen.jpg");
+        $(".treasurer").html("Helen <br> Pham");
+
+        $(".secretary").attr("src", "../Images/ExecBoard/2017/Kevin.jpg");
+        $(".secretary").html("Kevin <br> Prachith")
+
+        $(".publicRelations").attr("src", "../Images/ExecBoard/2017/Hanh.jpg");
+        $(".publicRelations").html("Hanh <br> Nguyen");
+
+        $(".historian").attr("src", "../Images/ExecBoard/2017/Ben.jpg");
+        $(".historian").html("Ben <br> Nguyen");
+
+    }
+
 
     function update2018() {
         updateYear2018();
@@ -67,6 +158,20 @@
         $(".vicePresident").attr("src", "../Images/ExecBoard/Tony.jpg");
         $(".vicePresident").html("Tony <br> Vu");
 
+
+
+        /*
+        $(".externalVicePresident").append(  `<div class="card border-secondary col-md marginTop execboardMarginRight externalVicePresident">
+            <div class="card-body text-center ">
+                <h3 class="card-title nameFont externalVicePresident">Austin <br> Tran </h3>
+                    <h4 class="card-text positionFont"> External Vice President
+                            </h4>
+                        </div>
+                <img src="../Images/ExecBoard/Austin.jpg" class="externalVicePresident card-img-top text-center"
+                    alt="...">
+
+                    </div>`);
+        */
         $(".externalVicePresident").attr("src", "../Images/ExecBoard/Austin.jpg");
         $(".externalVicePresident").html("Austin <br> Tran");
 
@@ -87,6 +192,7 @@
     update2019();
 
 </script>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand hvr-underline-from-center" href="../index.html">
@@ -183,6 +289,9 @@
                             <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
                                 <a class="dropdown-item" onclick="update2019()"> 2019 / 2020</a>
                                 <a class="dropdown-item" onclick="update2018()"> 2018 / 2019</a>
+                                <a class="dropdown-item" onclick="update2017()"> 2017 / 2018</a>
+                                <a class="dropdown-item" onclick="update2016()"> 2016 / 2017</a>
+                                
                             </div>
                         </div>
                         <div class="card-body text-center ">
@@ -332,4 +441,3 @@
 
 
 </html>
-
