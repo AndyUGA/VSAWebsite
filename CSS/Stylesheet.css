@@ -415,9 +415,12 @@ NIS
     flex-direction: column;
 }
 
-#timer {
-    font-size: 30%;
+.nisMinHeight {
+    min-height: 80%;
+
 }
+
+
 
 .paddingTopAndBottom {
     padding-top: 8%;

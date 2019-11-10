@@ -24,6 +24,110 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900&display=swap" rel="stylesheet">
 </head>
 
+<script>
+    function updateYearNIS15() {
+        $(".execYear").text("NIS 15")
+    }
+
+    function updateNIS15() {
+        updateYearNIS15();
+        $(".execDirector").attr("src", "../Images/NIS/NIS15/Alex.jpg");
+        $(".execDirector").text(`Alex Ta`);
+
+        $(".Decorations").attr("src", "../Images/NIS/NIS15/Mandy.jpg");
+        $(".Decorations").text(`Mandy Dao`);
+
+        $(".Sponsorships").attr("src", "../Images/NIS/NIS15/Doan.jpg");
+        $(".Sponsorships").text(`Doan Ho`);
+
+        $(".Entertainment").attr("src", "../Images/NIS/NIS15/Tony.jpg");
+        $(".Entertainment").text(`Tony Vu`);
+
+        $(".Food").attr("src", "../Images/NIS/NIS15/Kayla.jpg");
+        $(".Food").text(`Kayla Tran`);
+
+        $(".Logistics").attr("src", "../Images/NIS/NIS15/Kevin.jpg");
+        $(".Logistics").text(`Kevin Dinh`);
+
+        $(".Marketing").attr("src", "../Images/NIS/NIS15/Ann.jpg");
+        $(".Marketing").text(`Ann Tran`);
+
+        $(".Media ").attr("src", "../Images/NIS/NIS15/Steven.jpg");
+        $(".Media ").text(`Steven Tran`);
+
+        $(".Skit").attr("src", "../Images/NIS/NIS15/Teresa.jpg");
+        $(".Skit").text(`Teresa Tran`);
+
+        $(".tempSkit").remove();
+        $(".tempPadding").addClass("pb-5");
+
+
+
+    }
+
+    function updateYearNIS16() {
+        $(".execYear").text("NIS 16")
+    }
+
+    function updateNIS16() {
+        updateYearNIS16();
+        $(".execDirector").attr("src", "../Images/NIS/NIS16/Amy.jpg");
+        $(".execDirector").text(`Amy Tran`);
+
+        $(".Decorations").attr("src", "../Images/NIS/NIS16/Brandy.jpg");
+        $(".Decorations").text(`Brandy Le`);
+
+        $(".Sponsorships").attr("src", "../Images/NIS/NIS16/Eric.jpg");
+        $(".Sponsorships").text(`Eric Gou`);
+
+        $(".Entertainment").attr("src", "../Images/NIS/NIS16/Sam.jpg");
+        $(".Entertainment").text(`Sam Huynh`);
+
+        $(".Food").attr("src", "../Images/NIS/NIS16/Jessie.jpg");
+        $(".Food").text(`Jessie Hoang`);
+
+        $(".Logistics").attr("src", "../Images/NIS/NIS16/Ian.jpg");
+        $(".Logistics").text(`Ian Hardy`);
+
+        $(".Marketing").attr("src", "../Images/NIS/NIS16/Winny.jpg");
+        $(".Marketing").text(`Nhilynn Nguyen`);
+
+        $(".Media ").attr("src", "../Images/NIS/NIS16/Ben.jpg");
+        $(".Media ").text(`Ben Nguyen`);
+
+        $(".Skit").attr("src", "../Images/NIS/NIS16/Teresa.jpg");
+        $(".Skit").text(`Teresa  Tran`);
+
+        $(".Skit2").attr("src", "../Images/NIS/NIS16/Henry.jpg");
+        $(".Skit2").text(`Henry Bui`);
+
+        $(".tempPadding").removeClass("pb-5");
+        $(".tempCard").append(`<div class="containerNIS pb-5 tempSkit">
+            <div class="row ">
+                <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+                    <div class="card border-dark h-100">
+    
+                        <div class="card-body">
+                            <h4 class="nameFont2 text-center Skit2">
+                                Henry Bui </h4>
+                            <h5 class="positionFont text-center "> Skit </h5>
+                        </div>
+                        <img class="card-img-top NISborderRadius Skit2" src="../Images/NIS/NIS16/Henry.jpg" >
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+                </div>
+                <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+                </div>
+            </div>
+        </div>`);
+
+
+    }
+
+
+</script>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand hvr-underline-from-center" href="../index.html">
@@ -124,34 +228,58 @@
     </div>
 
     <div class="containerNIS">
+
+        <div class="row d-flex justify-content-center no-gutters ">
+            <div class="card maxCardWidth border-secondary marginTop col-md-12 text-center">
+
+                <div class="btn-group dropdown" role="group">
+                    <button id="btnGroupDrop1" type="button" class="execYear btn btn-lg btn-dark dropdown-toggle p-4"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        NIS 16
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <a class="dropdown-item" onclick="updateNIS16()"> NIS 16 </a>
+
+                        <a class="dropdown-item" onclick="updateNIS15()"> NIS 15 </a>
+                        <a class="dropdown-item" onclick="update2018()"> NIS 14</a>
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
         <div class="row">
             <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS paddingBottomNIS ">
                 <div class="card border-dark h-100">
 
                     <div class="card-body">
-                        <h4 class="nameFont2 text-center"> Amy Tran </h4>
+                        <h4 class="nameFont2 text-center execDirector"> Amy Tran </h4>
                         <h5 class="positionFont text-center"> Executive Director </h5>
                     </div>
-                    <img class="director card-img-top " src="../Images/NIS/NIS2019/Amy.jpg" alt="Card image cap">
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS paddingBottomNIS">
-                <div class="card border-dark h-100">
-                    <div class="card-body">
-                        <h4 class="nameFont2 text-center"> Brandy Le </h4>
-                        <h5 class="positionFont text-center"> Decorations </h5>
-                    </div>
-                    <img class="card-img-top NISborderRadius" src="../Images/NIS/NIS2019/Brandy.jpg"
+                    <img class="director card-img-top execDirector" src="../Images/NIS/NIS16/Amy.jpg"
                         alt="Card image cap">
                 </div>
             </div>
             <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS paddingBottomNIS">
                 <div class="card border-dark h-100">
                     <div class="card-body">
-                        <h4 class="nameFont2 text-center"> Erikon Gou </h4>
+                        <h4 class="nameFont2 text-center Decorations"> Brandy Le </h4>
+                        <h5 class="positionFont text-center"> Decorations </h5>
+                    </div>
+                    <img class="card-img-top NISborderRadius Decorations" src="../Images/NIS/NIS16/Brandy.jpg" alt="Card image cap">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS paddingBottomNIS">
+                <div class="card border-dark h-100">
+                    <div class="card-body">
+                        <h4 class="nameFont2 text-center Sponsorships"> Erikon Gou </h4>
                         <h5 class="positionFont text-center"> Sponsorships </h5>
                     </div>
-                    <img class="card-img-top NISborderRadius" src="../Images/NIS/NIS2019/Eric.jpg" alt="Card image cap">
+                    <img class="card-img-top NISborderRadius Sponsorships" src="../Images/NIS/NIS16/Eric.jpg" alt="Card image cap">
                 </div>
             </div>
 
@@ -164,10 +292,10 @@
                 <div class="card border-dark  h-100">
 
                     <div class="card-body">
-                        <h4 class="nameFont2 text-center"> Sam Huynh </h4>
+                        <h4 class="nameFont2 text-center Entertainment"> Sam Huynh </h4>
                         <h5 class="positionFont text-center"> Entertainment </h5>
                     </div>
-                    <img class="card-img-top NISborderRadius" src="../Images/NIS/NIS2019/Sam.jpg" alt="Card image cap">
+                    <img class="card-img-top NISborderRadius Entertainment" src="../Images/NIS/NIS16/Sam.jpg" alt="Card image cap">
                 </div>
             </div>
             <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
@@ -175,9 +303,9 @@
                     <div class="card-body">
                         <h4 class="nameFont2 text-center">
                             Jessie Hoang </h4>
-                        <h5 class="positionFont text-center"> Food </h5>
+                        <h5 class="positionFont text-center Food"> Food </h5>
                     </div>
-                    <img class="card-img-top NISborderRadius" src="../Images/NIS/NIS2019/Jessica.jpg"
+                    <img class="card-img-top NISborderRadius Food" src="../Images/NIS/NIS16/Jessie.jpg"
                         alt="Card image cap">
                 </div>
             </div>
@@ -187,26 +315,25 @@
                     <div class="card-body">
                         <h4 class="nameFont2 text-center">
                             Ian Hardy</h4>
-                        <h5 class="positionFont text-center"> Logistics </h5>
+                        <h5 class="positionFont text-center Logistics"> Logistics </h5>
                     </div>
-                    <img class="card-img-top NISborderRadius" src="../Images/NIS/NIS2019/Ian.jpg" alt="Card image cap">
+                    <img class="card-img-top NISborderRadius Logistics" src="../Images/NIS/NIS16/Ian.jpg" alt="Card image cap">
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="containerNIS pb-5">
+    <div class="containerNIS tempPadding">
         <div class="row ">
             <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
                 <div class="card border-dark h-100">
 
                     <div class="card-body">
-                        <h4 class="nameFont2 text-center">
+                        <h4 class="nameFont2 text-center Marketing">
                             Nhilynn Nguyen </h4>
-                        <h5 class="positionFont text-center"> Marketing </h5>
+                        <h5 class="positionFont text-center "> Marketing </h5>
                     </div>
-                    <img class="card-img-top NISborderRadius" src="../Images/NIS/NIS2019/Winny.jpg"
-                        alt="Card image cap">
+                    <img class="card-img-top NISborderRadius Marketing" src="../Images/NIS/NIS16/Winny.jpg" >
                 </div>
             </div>
             <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
@@ -215,10 +342,10 @@
 
                         <h4 class="nameFont2 text-center">
                             Benjamin Nguyen </h4>
-                        <h5 class="positionFont text-center"> Media Director </h5>
+                        <h5 class="positionFont text-center Media"> Media Director </h5>
 
                     </div>
-                    <img class="card-img-top NISborderRadius" src="../Images/NIS/NIS2019/Ben.jpg" alt="Card image cap">
+                    <img class="card-img-top NISborderRadius Media" src="../Images/NIS/NIS16/Ben.jpg" alt="Card image cap">
                 </div>
             </div>
             <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
@@ -226,17 +353,38 @@
 
                     <div class="card-body">
 
-                        <h4 class="nameFont2 text-center">
-                            Teresa Tran and Henry Bui </h4>
-                        <h5 class="positionFont text-center"> Skit </h5>
+                        <h4 class="nameFont2 text-center Skit">
+                            Teresa Tran </h4>
+                        <h5 class="positionFont text-center "> Skit </h5>
 
                     </div>
-                    <img class="card-img-top NISborderRadius" src="../Images/NIS/NIS2019/Teressa.jpg"
+                    <img class="card-img-top NISborderRadius Skit" src="../Images/NIS/NIS16/Teresa.jpg"
                         alt="Card image cap">
                 </div>
             </div>
         </div>
     </div>
+
+    <div class = "tempCard"> </div> 
+    <div class="containerNIS pb-5 tempSkit">
+            <div class="row ">
+                <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+                    <div class="card border-dark h-100">
+    
+                        <div class="card-body">
+                            <h4 class="nameFont2 text-center Skit2">
+                                Henry Bui </h4>
+                            <h5 class="positionFont text-center "> Skit </h5>
+                        </div>
+                        <img class="card-img-top NISborderRadius Skit2" src="../Images/NIS/NIS16/Henry.jpg" >
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+                </div>
+                <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+                </div>
+            </div>
+        </div>
 
 
 
