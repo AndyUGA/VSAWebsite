@@ -39,36 +39,49 @@
 
 
     function updateNIS14() {
+
+        
+
         updateYearNIS14();
-        $(".execDirector").attr("src", "../Images/NIS/NIS15/My.jpg");
+        $(".execDirector").attr("src", "../Images/NIS/NIS14/My.jpg");
         $(".execDirector").text(`My Nguyen`);
 
-        $(".Decorations").attr("src", "../Images/NIS/NIS15/Kristine.jpg");
+        $(".Decorations").attr("src", "../Images/NIS/NIS14/Kristine.jpg");
         $(".Decorations").text(`Kristine Phan`);
 
-        $(".Entertainment").attr("src", "../Images/NIS/NIS15/Alex.jpg");
+        $(".Entertainment").attr("src", "../Images/NIS/NIS14/Alex.jpg");
         $(".Entertainment").text(`Alex Ta`);
 
-        $(".Food").attr("src", "../Images/NIS/NIS15/Kayla.jpg");
-        $(".Food").text(`Kayla Tran`);
+        $(".Food").attr("src", "../Images/NIS/NIS14/Mimie.jpg");
+        $(".Food").text(`Mimie Le`);
 
-        $(".Logistics").attr("src", "../Images/NIS/NIS15/Jackson.jpg");
+        $(".Logistics").attr("src", "../Images/NIS/NIS14/Jackson.png");
         $(".Logistics").text(`Jackson Nguyen`);
 
-        $(".Marketing").attr("src", "../Images/NIS/NIS15/Ryan.jpg");
+        $(".Marketing").attr("src", "../Images/NIS/NIS14/Ryan.jpg");
         $(".Marketing").text(`Ryan Nguyen`);
 
-        $(".Media").attr("src", "../Images/NIS/NIS15/Ben.jpg");
+        $(".Media").attr("src", "../Images/NIS/NIS14/Ben.jpg");
         $(".Media").text(`Ben Nguyen`);
 
-        $(".Skit").attr("src", "../Images/NIS/NIS15/Crystal.jpg");
-        $(".Skit").text(`Crystal Le`);
+        $(".Skit").attr("src", "../Images/NIS/NIS14/Kamy.jpg");
+        $(".Skit").text(`Kamy Nguyen`);
 
-        $(".tempSkit").remove();
+        $(".Sponsorships").attr("src", "../Images/NIS/NIS14/Crystal.jpg");
+        $(".Sponsorships").text(`Cyrstal Le`);
+        $(".changeSkitName").text(`Skit`);
+        
+
+        
         $(".tempPadding").addClass("pb-5");
+        $(".tempSkit").remove();
+
+  
+
     }
 
     function updateNIS15() {
+    
         updateYearNIS15();
         $(".execDirector").attr("src", "../Images/NIS/NIS15/Alex.jpg");
         $(".execDirector").text(`Alex Ta`);
@@ -97,6 +110,13 @@
         $(".Skit").attr("src", "../Images/NIS/NIS15/Teresa.jpg");
         $(".Skit").text(`Teresa Tran`);
 
+        $(".tempExecDirector").removeClass('col-md-6 col-sm-6');
+        $(".tempExecDirector").addClass('col-md-4 col-sm-4');
+
+        $(".tempDecorations").removeClass('col-md-6 col-sm-6');
+        $(".tempDecorations").addClass('col-md-4 col-sm-4');
+
+       
         $(".tempSkit").remove();
         $(".tempPadding").addClass("pb-5");
     }
@@ -104,6 +124,14 @@
 
     function updateNIS16() {
         updateYearNIS16();
+
+        
+
+
+     
+
+
+
         $(".execDirector").attr("src", "../Images/NIS/NIS16/Amy.jpg");
         $(".execDirector").text(`Amy Tran`);
 
@@ -285,8 +313,8 @@
             </div>
 
         </div>
-        <div class="row">
-            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS paddingBottomNIS ">
+        <div class="row restoreSponsorships">
+            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS paddingBottomNIS tempExecDirector">
                 <div class="card border-dark h-100">
 
                     <div class="card-body">
@@ -297,7 +325,7 @@
                         alt="Card image cap">
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS paddingBottomNIS">
+            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS paddingBottomNIS tempDecorations">
                 <div class="card border-dark h-100">
                     <div class="card-body">
                         <h4 class="nameFont2 text-center Decorations"> Brandy Le </h4>
@@ -307,11 +335,12 @@
                         alt="Card image cap">
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS paddingBottomNIS">
+           
+            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS paddingBottomNIS tempSponsorships">
                 <div class="card border-dark h-100">
                     <div class="card-body">
                         <h4 class="nameFont2 text-center Sponsorships"> Erikon Gou </h4>
-                        <h5 class="positionFont text-center"> Sponsorships </h5>
+                        <h5 class="positionFont text-center changeSkitName"> Sponsorships </h5>
                     </div>
                     <img class="card-img-top NISborderRadius Sponsorships" src="../Images/NIS/NIS16/Eric.jpg"
                         alt="Card image cap">
