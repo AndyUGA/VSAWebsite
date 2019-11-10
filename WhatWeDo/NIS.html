@@ -25,8 +25,47 @@
 </head>
 
 <script>
+
+
+    function updateYearNIS16() {
+        $(".execYear").text("NIS 16")
+    }
     function updateYearNIS15() {
         $(".execYear").text("NIS 15")
+    }
+    function updateYearNIS14() {
+        $(".execYear").text("NIS 14")
+    }
+
+
+    function updateNIS14() {
+        updateYearNIS14();
+        $(".execDirector").attr("src", "../Images/NIS/NIS15/My.jpg");
+        $(".execDirector").text(`My Nguyen`);
+
+        $(".Decorations").attr("src", "../Images/NIS/NIS15/Kristine.jpg");
+        $(".Decorations").text(`Kristine Phan`);
+
+        $(".Entertainment").attr("src", "../Images/NIS/NIS15/Alex.jpg");
+        $(".Entertainment").text(`Alex Ta`);
+
+        $(".Food").attr("src", "../Images/NIS/NIS15/Kayla.jpg");
+        $(".Food").text(`Kayla Tran`);
+
+        $(".Logistics").attr("src", "../Images/NIS/NIS15/Jackson.jpg");
+        $(".Logistics").text(`Jackson Nguyen`);
+
+        $(".Marketing").attr("src", "../Images/NIS/NIS15/Ryan.jpg");
+        $(".Marketing").text(`Ryan Nguyen`);
+
+        $(".Media").attr("src", "../Images/NIS/NIS15/Ben.jpg");
+        $(".Media").text(`Ben Nguyen`);
+
+        $(".Skit").attr("src", "../Images/NIS/NIS15/Crystal.jpg");
+        $(".Skit").text(`Crystal Le`);
+
+        $(".tempSkit").remove();
+        $(".tempPadding").addClass("pb-5");
     }
 
     function updateNIS15() {
@@ -60,14 +99,8 @@
 
         $(".tempSkit").remove();
         $(".tempPadding").addClass("pb-5");
-
-
-
     }
 
-    function updateYearNIS16() {
-        $(".execYear").text("NIS 16")
-    }
 
     function updateNIS16() {
         updateYearNIS16();
@@ -241,7 +274,7 @@
                         <a class="dropdown-item" onclick="updateNIS16()"> NIS 16 </a>
 
                         <a class="dropdown-item" onclick="updateNIS15()"> NIS 15 </a>
-                        <a class="dropdown-item" onclick="update2018()"> NIS 14</a>
+                        <a class="dropdown-item" onclick="updateNIS14()"> NIS 14</a>
 
 
                     </div>
@@ -270,7 +303,8 @@
                         <h4 class="nameFont2 text-center Decorations"> Brandy Le </h4>
                         <h5 class="positionFont text-center"> Decorations </h5>
                     </div>
-                    <img class="card-img-top NISborderRadius Decorations" src="../Images/NIS/NIS16/Brandy.jpg" alt="Card image cap">
+                    <img class="card-img-top NISborderRadius Decorations" src="../Images/NIS/NIS16/Brandy.jpg"
+                        alt="Card image cap">
                 </div>
             </div>
             <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS paddingBottomNIS">
@@ -279,7 +313,8 @@
                         <h4 class="nameFont2 text-center Sponsorships"> Erikon Gou </h4>
                         <h5 class="positionFont text-center"> Sponsorships </h5>
                     </div>
-                    <img class="card-img-top NISborderRadius Sponsorships" src="../Images/NIS/NIS16/Eric.jpg" alt="Card image cap">
+                    <img class="card-img-top NISborderRadius Sponsorships" src="../Images/NIS/NIS16/Eric.jpg"
+                        alt="Card image cap">
                 </div>
             </div>
 
@@ -295,15 +330,16 @@
                         <h4 class="nameFont2 text-center Entertainment"> Sam Huynh </h4>
                         <h5 class="positionFont text-center"> Entertainment </h5>
                     </div>
-                    <img class="card-img-top NISborderRadius Entertainment" src="../Images/NIS/NIS16/Sam.jpg" alt="Card image cap">
+                    <img class="card-img-top NISborderRadius Entertainment" src="../Images/NIS/NIS16/Sam.jpg"
+                        alt="Card image cap">
                 </div>
             </div>
             <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
                 <div class="card border-dark h-100">
                     <div class="card-body">
-                        <h4 class="nameFont2 text-center">
+                        <h4 class="nameFont2 text-center Food">
                             Jessie Hoang </h4>
-                        <h5 class="positionFont text-center Food"> Food </h5>
+                        <h5 class="positionFont text-center "> Food </h5>
                     </div>
                     <img class="card-img-top NISborderRadius Food" src="../Images/NIS/NIS16/Jessie.jpg"
                         alt="Card image cap">
@@ -313,11 +349,12 @@
                 <div class="card border-dark h-100">
 
                     <div class="card-body">
-                        <h4 class="nameFont2 text-center">
+                        <h4 class="nameFont2 text-center Logistics">
                             Ian Hardy</h4>
-                        <h5 class="positionFont text-center Logistics"> Logistics </h5>
+                        <h5 class="positionFont text-center "> Logistics </h5>
                     </div>
-                    <img class="card-img-top NISborderRadius Logistics" src="../Images/NIS/NIS16/Ian.jpg" alt="Card image cap">
+                    <img class="card-img-top NISborderRadius Logistics" src="../Images/NIS/NIS16/Ian.jpg"
+                        alt="Card image cap">
                 </div>
             </div>
         </div>
@@ -333,19 +370,20 @@
                             Nhilynn Nguyen </h4>
                         <h5 class="positionFont text-center "> Marketing </h5>
                     </div>
-                    <img class="card-img-top NISborderRadius Marketing" src="../Images/NIS/NIS16/Winny.jpg" >
+                    <img class="card-img-top NISborderRadius Marketing" src="../Images/NIS/NIS16/Winny.jpg">
                 </div>
             </div>
             <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
                 <div class="card border-dark h-100">
                     <div class="card-body">
 
-                        <h4 class="nameFont2 text-center">
+                        <h4 class="nameFont2 text-center Media">
                             Benjamin Nguyen </h4>
-                        <h5 class="positionFont text-center Media"> Media Director </h5>
+                        <h5 class="positionFont text-center "> Media </h5>
 
                     </div>
-                    <img class="card-img-top NISborderRadius Media" src="../Images/NIS/NIS16/Ben.jpg" alt="Card image cap">
+                    <img class="card-img-top NISborderRadius Media" src="../Images/NIS/NIS16/Ben.jpg"
+                        alt="Card image cap">
                 </div>
             </div>
             <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
@@ -365,26 +403,26 @@
         </div>
     </div>
 
-    <div class = "tempCard"> </div> 
+    <div class="tempCard"> </div>
     <div class="containerNIS pb-5 tempSkit">
-            <div class="row ">
-                <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
-                    <div class="card border-dark h-100">
-    
-                        <div class="card-body">
-                            <h4 class="nameFont2 text-center Skit2">
-                                Henry Bui </h4>
-                            <h5 class="positionFont text-center "> Skit </h5>
-                        </div>
-                        <img class="card-img-top NISborderRadius Skit2" src="../Images/NIS/NIS16/Henry.jpg" >
+        <div class="row ">
+            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+                <div class="card border-dark h-100">
+
+                    <div class="card-body">
+                        <h4 class="nameFont2 text-center Skit2">
+                            Henry Bui </h4>
+                        <h5 class="positionFont text-center "> Skit </h5>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
-                </div>
-                <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+                    <img class="card-img-top NISborderRadius Skit2" src="../Images/NIS/NIS16/Henry.jpg">
                 </div>
             </div>
+            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+            </div>
+            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+            </div>
         </div>
+    </div>
 
 
 
