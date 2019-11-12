@@ -26,13 +26,47 @@
 
 <script>
 
-    function updateYear2018() {
-        $(".execYear").text("2018 / 2019")
+    var change = false;
+    console.log("30 Change is + " + change);
+    function restoreImg() {
+       
+        if(this.change == true) {
+            $(".restoreExternalVP").append(`<div class="card border-secondary col-md marginTop execboardMarginRight tempExternalVP">
+                        <div class="card-body text-center ">
+                            <h3 class="card-title nameFont externalVicePresident">Austin <br> Tran </h3>
+                            <h4 class="card-text positionFont"> External Vice President
+                            </h4>
+                        </div>
+                        <img src="../Images/ExecBoard/Austin.jpg" class="externalVicePresident card-img-top text-center"
+                            alt="...">
+
+                    </div>`);
+        $(".restoreHistorian").append(`
+        <div class="card border-secondary col-md marginTop execboardMarginRight tempHistorian">
+            <div class="card-body text-center ">
+                <h3 class="card-title nameFont historian">Dominic <br>Nguyen </h3>
+                <h4 class="card-text positionFont"> 
+                    Historian
+                </h4>
+            </div>
+        <img src="../Images/ExecBoard/Dominic.jpg" class="historian card-img-top text-center" alt="...">
+        </div>`);
+        this.change = false;
+        }
+            
+        
+      
     }
 
     function updateYear2019() {
         $(".execYear").text("2019 / 2020")
     }
+
+    function updateYear2018() {
+        $(".execYear").text("2018 / 2019")
+    }
+
+  
 
     function updateYear2017() {
         $(".execYear").text("2017 / 2018")
@@ -49,7 +83,7 @@
     function update2015() {
         updateYear2015();
 
-
+        this.change = true;
         $(".president").attr("src", "../Images/ExecBoard/2015/Crystal.jpg");
         $(".president").text(`Crystal Le`);
 
@@ -69,11 +103,13 @@
         $(".publicRelations").html("Chi <br> Nguyen");
 
 
+        $(".tempExternalVP").remove();
+        $(".tempHistorian").remove();
     }
 
-    function update2016() {
+    function update2016(change) {
         updateYear2016();
-
+        restoreImg(change);
 
         $(".president").attr("src", "../Images/ExecBoard/2016/Brian.jpg");
         $(".president").text(`Brian Xu`);
@@ -98,9 +134,9 @@
 
     }
 
-    function update2017() {
+    function update2017(change) {
         updateYear2017();
-
+        restoreImg(change);
 
         $(".president").attr("src", "../Images/ExecBoard/2017/Jody.jpg");
         $(".president").text(`Jody Dinh`);
@@ -127,6 +163,8 @@
 
 
     function update2018() {
+
+        restoreImg(change);
         updateYear2018();
         $(".president").attr("src", "../Images/ExecBoard/2018/Summer.jpg");
         $(".president").text(`Summer Phung`);
@@ -151,6 +189,8 @@
 
     }
     function update2019() {
+        console.log("190 Change is " + this.change);
+        restoreImg(this.change);
         updateYear2019();
         $(".president").attr("src", "../Images/ExecBoard/Tammy.jpg");
         $(".president").text("Tammy Pham");
@@ -188,14 +228,13 @@
         $(".historian").html("Dominic <br> Nguyen");
     }
 
-    update2018();
-    update2019();
+ 
 
 </script>
 
 <body>
 
-    <div class = "preload">
+    <div class="preload">
 
         <img src="../Images/ExecBoard/2018/Summer.jpg" />
         <img src="../Images/ExecBoard/2018/My.jpg" />
@@ -221,7 +260,7 @@
         <img src="../Images/ExecBoard/2016/May.jpg" />
         <img src="../Images/ExecBoard/2016/Summer.jpg" />
 
-        
+
 
 
     </div>
@@ -324,7 +363,7 @@
                                 <a class="dropdown-item" onclick="update2018()"> 2018 / 2019</a>
                                 <a class="dropdown-item" onclick="update2017()"> 2017 / 2018</a>
                                 <a class="dropdown-item" onclick="update2016()"> 2016 / 2017</a>
-
+                                <a class="dropdown-item" onclick="update2015()"> 2015 / 2016</a>
                             </div>
                         </div>
                         <div class="card-body text-center ">
@@ -339,7 +378,7 @@
                     </div>
 
                 </div>
-                <div class="row no-gutters">
+                <div class="row no-gutters restoreExternalVP">
 
                     <div class="card border-secondary col-md marginTop execboardMarginRight">
 
@@ -353,16 +392,7 @@
 
                     </div>
 
-                    <div class="card border-secondary col-md marginTop execboardMarginRight">
-                        <div class="card-body text-center ">
-                            <h3 class="card-title nameFont externalVicePresident">Austin <br> Tran </h3>
-                            <h4 class="card-text positionFont"> External Vice President
-                            </h4>
-                        </div>
-                        <img src="../Images/ExecBoard/Austin.jpg" class="externalVicePresident card-img-top text-center"
-                            alt="...">
-
-                    </div>
+                   
 
                     <div class="card border-secondary col-md marginTop execboardMarginRight">
                         <div class="card-body text-center ">
@@ -375,8 +405,19 @@
 
                     </div>
 
+                    <div class="card border-secondary col-md marginTop execboardMarginRight tempExternalVP">
+                            <div class="card-body text-center ">
+                                <h3 class="card-title nameFont externalVicePresident">Austin <br> Tran </h3>
+                                <h4 class="card-text positionFont"> External Vice President
+                                </h4>
+                            </div>
+                            <img src="../Images/ExecBoard/Austin.jpg" class="externalVicePresident card-img-top text-center"
+                                alt="...">
+    
+                        </div>
+
                 </div>
-                <div class="row no-gutters pb-5">
+                <div class="row no-gutters pb-5 restoreHistorian">
 
                     <div class="card border-secondary col-md marginTop execboardMarginRight">
                         <div class="card-body text-center ">
@@ -396,7 +437,8 @@
                             alt="...">
 
                     </div>
-                    <div class="card border-secondary col-md marginTop execboardMarginRight">
+
+                    <div class="card border-secondary col-md marginTop execboardMarginRight tempHistorian">
                         <div class="card-body text-center ">
                             <h3 class="card-title nameFont historian">Dominic <br>Nguyen </h3>
                             <h4 class="card-text positionFont"> Historian
