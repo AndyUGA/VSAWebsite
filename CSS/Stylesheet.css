@@ -947,7 +947,7 @@ Partners
 @media only screen and (min-width: 300px) and (max-width: 899px) and (orientation : landscape)  {
 
     .container {
-        width: 50%;
+        width: 80%;
     }
 
     .landScapepaddingTopAndBottom {
@@ -1018,7 +1018,7 @@ Partners
     }
 
     .ACEContainer {
-        width: 80%;
+        width: 65%;
         padding-right: 15px;
         padding-left: 15px;
         margin-right: auto;
