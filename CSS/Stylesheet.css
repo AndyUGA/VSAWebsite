@@ -434,12 +434,7 @@ NIS
 
 }
 
-.NISTitle2 {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 10vh;
-    color: white;
 
-}
 
 
 .NISSubTitle {
@@ -499,6 +494,7 @@ NIS
 .nameFont2 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
+    text-decoration: underline;
     font-size: 3vh;
 }
 
@@ -878,7 +874,7 @@ Partners
         font-family: 'Quicksand', sans-serif;
         font-size: 10vh;
         color: white;
-        padding-bottom: 35vh;
+     
     }
 
     .containerNIS {
