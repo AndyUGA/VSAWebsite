@@ -420,7 +420,12 @@ NIS
 
 }
 
-
+ .NISTitle2 {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 10vh;
+        color: white;
+     
+    }
 
 .paddingTopAndBottom {
     padding-top: 8%;
@@ -870,12 +875,7 @@ Partners
 
     }
 
-    .NISTitle2 {
-        font-family: 'Quicksand', sans-serif;
-        font-size: 10vh;
-        color: white;
-     
-    }
+   
 
     .containerNIS {
         width: 90%;
