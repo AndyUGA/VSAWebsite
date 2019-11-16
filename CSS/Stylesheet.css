@@ -381,7 +381,7 @@ Executive Board Page
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     font-size: 4vh;
-
+    text-decoration: underline;
 }
 
 .positionFont {
@@ -494,7 +494,7 @@ NIS
 .nameFont2 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
-    text-decoration: underline;
+ 
     font-size: 3vh;
 }
 
@@ -1099,7 +1099,7 @@ Partners
         font-family: 'Quicksand', sans-serif;
         font-weight: 700;
         font-size: 3vh;
-
+        text-decoration: underline;
     }
 
     .cardWidth {
