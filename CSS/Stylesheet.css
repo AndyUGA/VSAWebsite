@@ -424,7 +424,7 @@ NIS
         font-family: 'Quicksand', sans-serif;
         font-size: 10vh;
         color: white;
-     
+        
     }
 
 .paddingTopAndBottom {
@@ -499,7 +499,7 @@ NIS
 .nameFont2 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
- 
+    text-decoration: underline;
     font-size: 3vh;
 }
 
@@ -687,7 +687,7 @@ Partners
     }
 
     .fontAwesomeIcon {
-        font-size: 30vw;
+        font-size: 20vw;
         margin-bottom: 5vh;
     }
 
