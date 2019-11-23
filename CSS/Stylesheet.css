@@ -583,6 +583,11 @@ Olympics
 Awards
 */
 
+
+
+.list-group-item {
+    font-weight: 900;
+}
 .AwardsBGIMG {
     height: 100vh;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/WhoWeAre/Awards/backgroundIMG.jpg');
