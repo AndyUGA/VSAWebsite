@@ -105,13 +105,17 @@ display: block !important;
 .pillarBold {
     font-size: 2vw;
     font-weight: bold;
-
+    overflow-wrap: normal;
 }
 
 .pillarFontSize {
     font-size: 15vh;
     text-align: center;
 
+}
+
+.pillarWordWrap {
+    overflow-wrap: anywhere;
 }
 
 
