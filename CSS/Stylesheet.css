@@ -2,9 +2,6 @@
 * All pages 
 */
 
-
-
-
 .viewHeight20 {
     min-height: 20vh;
 }
@@ -54,7 +51,6 @@
 }
 
 
-
 .navbar {
     background-color: black!important;
 }
@@ -83,11 +79,7 @@ body {
 Index
 */
 
-/*
-.dropdown:hover .dropdown-menu {
-display: block !important;
-}
-*/
+
 
 .indexVSALogo {
     width: 15vw;
@@ -117,7 +109,6 @@ display: block !important;
 .pillarWordWrap {
     overflow-wrap: anywhere;
 }
-
 
 
 u {
@@ -296,13 +287,9 @@ Who We Are
 }
 
 
-
-
 .fontAwesomeFont {
     font-size: 25vw;
 }
-
-
 
 
 /*
