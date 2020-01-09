@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/Stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title> Night in Saigon</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900&display=swap" rel="stylesheet">
+</head>
+
+<script>
+
+
+    function updateYearNIS16() {
+        $(".execYear").text("NIS 16")
+    }
+    function updateYearNIS15() {
+        $(".execYear").text("NIS 15")
+    }
+    function updateYearNIS14() {
+        $(".execYear").text("NIS 14")
+    }
+
+
+    function updateNIS14() {
+
+        
+
+        updateYearNIS14();
+        $(".execDirector").attr("src", "../Images/NIS/NIS14/My.jpg");
+        $(".execDirector").text(`My Nguyen`);
+
+        $(".Decorations").attr("src", "../Images/NIS/NIS14/Kristine.jpg");
+        $(".Decorations").text(`Kristine Phan`);
+
+        $(".Entertainment").attr("src", "../Images/NIS/NIS14/Alex.jpg");
+        $(".Entertainment").text(`Alex Ta`);
+
+        $(".Food").attr("src", "../Images/NIS/NIS14/Mimie.jpg");
+        $(".Food").text(`Mimie Le`);
+
+        $(".Logistics").attr("src", "../Images/NIS/NIS14/Jackson.jpg");
+        $(".Logistics").text(`Jackson Nguyen`);
+
+        $(".Marketing").attr("src", "../Images/NIS/NIS14/Ryan.jpg");
+        $(".Marketing").text(`Ryan Nguyen`);
+
+        $(".Media").attr("src", "../Images/NIS/NIS14/Ben.jpg");
+        $(".Media").text(`Ben Nguyen`);
+
+        $(".Skit").attr("src", "../Images/NIS/NIS14/Kamy.jpg");
+        $(".Skit").text(`Kamy Nguyen`);
+
+        $(".Sponsorships").attr("src", "../Images/NIS/NIS14/Crystal.jpg");
+        $(".Sponsorships").text(`Cyrstal Le`);
+        $(".changeSkitName").text(`Skit`);
+        
+
+        
+        $(".tempPadding").addClass("pb-5");
+        $(".tempSkit").remove();
+
+  
+
+    }
+
+    function updateNIS15() {
+    
+        updateYearNIS15();
+        $(".execDirector").attr("src", "../Images/NIS/NIS15/Alex.jpg");
+        $(".execDirector").text(`Alex Ta`);
+
+        $(".Decorations").attr("src", "../Images/NIS/NIS15/Mandy.jpg");
+        $(".Decorations").text(`Mandy Dao`);
+
+        $(".Sponsorships").attr("src", "../Images/NIS/NIS15/Doan.jpg");
+        $(".Sponsorships").text(`Doan Ho`);
+
+        $(".Entertainment").attr("src", "../Images/NIS/NIS15/Tony.jpg");
+        $(".Entertainment").text(`Tony Vu`);
+
+        $(".Food").attr("src", "../Images/NIS/NIS15/Kayla.jpg");
+        $(".Food").text(`Kayla Tran`);
+
+        $(".Logistics").attr("src", "../Images/NIS/NIS15/Kevin.jpg");
+        $(".Logistics").text(`Kevin Dinh`);
+
+        $(".Marketing").attr("src", "../Images/NIS/NIS15/Ann.jpg");
+        $(".Marketing").text(`Ann Tran`);
+
+        $(".Media ").attr("src", "../Images/NIS/NIS15/Steven.jpg");
+        $(".Media ").text(`Steven Tran`);
+
+        $(".Skit").attr("src", "../Images/NIS/NIS15/Teresa.jpg");
+        $(".Skit").text(`Teresa Tran`);
+
+        $(".tempExecDirector").removeClass('col-md-6 col-sm-6');
+        $(".tempExecDirector").addClass('col-md-4 col-sm-4');
+
+        $(".tempDecorations").removeClass('col-md-6 col-sm-6');
+        $(".tempDecorations").addClass('col-md-4 col-sm-4');
+
+       
+        $(".tempSkit").remove();
+        $(".tempPadding").addClass("pb-5");
+    }
+
+
+    function updateNIS16() {
+        updateYearNIS16();
+
+        
+
+
+     
+
+
+
+        $(".execDirector").attr("src", "../Images/NIS/NIS16/Amy.jpg");
+        $(".execDirector").text(`Amy Tran`);
+
+        $(".Decorations").attr("src", "../Images/NIS/NIS16/Brandy.jpg");
+        $(".Decorations").text(`Brandy Le`);
+
+        $(".Sponsorships").attr("src", "../Images/NIS/NIS16/Eric.jpg");
+        $(".Sponsorships").text(`Eric Gou`);
+
+        $(".Entertainment").attr("src", "../Images/NIS/NIS16/Sam.jpg");
+        $(".Entertainment").text(`Sam Huynh`);
+
+        $(".Food").attr("src", "../Images/NIS/NIS16/Jessie.jpg");
+        $(".Food").text(`Jessie Hoang`);
+
+        $(".Logistics").attr("src", "../Images/NIS/NIS16/Ian.jpg");
+        $(".Logistics").text(`Ian Hardy`);
+
+        $(".Marketing").attr("src", "../Images/NIS/NIS16/Winny.jpg");
+        $(".Marketing").text(`Nhilynn Nguyen`);
+
+        $(".Media ").attr("src", "../Images/NIS/NIS16/Ben.jpg");
+        $(".Media ").text(`Ben Nguyen`);
+
+        $(".Skit").attr("src", "../Images/NIS/NIS16/Teresa.jpg");
+        $(".Skit").text(`Teresa  Tran`);
+
+        $(".Skit2").attr("src", "../Images/NIS/NIS16/Henry.jpg");
+        $(".Skit2").text(`Henry Bui`);
+
+        $(".tempPadding").removeClass("pb-5");
+        $(".tempCard").append(`<div class="containerNIS pb-5 tempSkit">
+            <div class="row ">
+                <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+                    <div class="card border-dark h-100">
+    
+                        <div class="card-body">
+                            <h4 class="nameFont2 text-center Skit2">
+                                Henry Bui </h4>
+                            <h5 class="positionFont text-center "> Skit </h5>
+                        </div>
+                        <img class="card-img-top NISborderRadius Skit2" src="../Images/NIS/NIS16/Henry.jpg" >
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+                </div>
+                <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+                </div>
+            </div>
+        </div>`);
+
+
+    }
+
+
+</script>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand hvr-underline-from-center" href="../index.html">
+            <img class="vsaLogo" src="Images/Logo/WhiteLogo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./WhoWeAre/WhoWeAre.html" id="navbarDropdown"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Who We Are
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../WhoWeAre/ExecutiveBoard.html"> Executive
+                            Board</a>
+                        <a class="dropdown-item" href="../WhoWeAre/Partners.html"> Partners and
+                            Awards</a>
+
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        What We Do
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                        <!--<a target = "_blank" class="dropdown-item" href="./CPP.html"> Collective Philanthropy Project</a>-->
+                        <a class="dropdown-item" href="./AceProgram.html"> ACE Program</a>
+                        <a class="dropdown-item" href="./Olympics.html"> Olympics</a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class='NISFlex NISTitle NISBGImg align-items-center justify-content-center text-center'>
+
+        <div>
+            Executive Board Elections (2020/2021)
+        </div>
+
+        <div class="NISSubTitle">
+            February 2nd
+        </div>
+        
+   
+    </div>
+
+    <div class='d-flex justify-content-center align-items-center min-vh-100 NISPadding'>
+        <div class="introText text-left container">
+
+            <div class=" row">
+                <div class="text-center col-md">
+              
+                    <i class="fas fa-person-booth fontAwesomeIcon fontAwesomeClear"></i>
+                </div>
+               
+            </div>
+            <p class="container">
+                Interested in taking up a leadership role in VSA? Read this page to see what positions would be the right fit for you and prepare yourself for the upcoming elections! 
+                <br><br>
+                Fill out <a href=""> this application</a> if you intend on running in the 2020/2021 elections. You MUST complete this application by <b> Fridya, January 31, 2020, at 11:59 p.m. ET</b>
+                in order to participate in elections. However, you may choose to retract your application at any time if you choose not to run.
+                <br><br>
+                Elections will take place in early February of 2020 based on scheduling and availability of the voting general body. 
+                <br><br>
+                If you would like to nominate another member for a position, complete <a href=""> this form!</a> Nominations are due <b> Wednesday, January 29, 2020, at 11:59 p.m.</b>
+                A nomination is NOT required for a member to participate in elections. The Elections moderator will reach out to the nominee to either accept or reject the nomination 
+                prior to the application due date. 
+                <br><br>
+                Contact Summer Phung, the 2020 Elections Moderator, with any questions about the election process!
+            </p>
+        </div>
+    </div>
+
+
+    <div class='d-flex NISTitle2 NISBGImg2 text-center justify-content-center align-items-center'>
+        Meet the NIS Board
+
+
+    </div>
+
+    <div class="containerNIS">
+
+        <div class="row d-flex justify-content-center no-gutters ">
+            <div class="card maxCardWidth border-secondary marginTop col-md-12 text-center">
+
+                <div class="btn-group dropdown" role="group">
+                    <button id="btnGroupDrop1" type="button" class="execYear btn btn-lg btn-dark dropdown-toggle p-4"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        NIS 16
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <a class="dropdown-item" onclick="updateNIS16()"> NIS 16 </a>
+
+                        <a class="dropdown-item" onclick="updateNIS15()"> NIS 15 </a>
+                        <a class="dropdown-item" onclick="updateNIS14()"> NIS 14</a>
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+        <div class="row restoreSponsorships">
+            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS paddingBottomNIS tempExecDirector">
+                <div class="card border-dark h-100">
+
+                    <div class="card-body">
+                        <h4 class="nameFont2 text-center execDirector"> Amy Tran </h4>
+                        <h5 class="positionFont text-center"> Executive Director </h5>
+                    </div>
+                    <img class="director card-img-top execDirector" src="../Images/NIS/NIS16/Amy.jpg"
+                        alt="Card image cap">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS paddingBottomNIS tempDecorations">
+                <div class="card border-dark h-100">
+                    <div class="card-body">
+                        <h4 class="nameFont2 text-center Decorations"> Brandy Le </h4>
+                        <h5 class="positionFont text-center"> Decorations </h5>
+                    </div>
+                    <img class="card-img-top NISborderRadius Decorations" src="../Images/NIS/NIS16/Brandy.jpg"
+                        alt="Card image cap">
+                </div>
+            </div>
+           
+            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS paddingBottomNIS tempSponsorships">
+                <div class="card border-dark h-100">
+                    <div class="card-body">
+                        <h4 class="nameFont2 text-center Sponsorships"> Erikon Gou </h4>
+                        <h5 class="positionFont text-center changeSkitName"> Sponsorships </h5>
+                    </div>
+                    <img class="card-img-top NISborderRadius Sponsorships" src="../Images/NIS/NIS16/Eric.jpg"
+                        alt="Card image cap">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="containerNIS">
+        <div class="row ">
+            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+                <div class="card border-dark  h-100">
+
+                    <div class="card-body">
+                        <h4 class="nameFont2 text-center Entertainment"> Sam Huynh </h4>
+                        <h5 class="positionFont text-center"> Entertainment </h5>
+                    </div>
+                    <img class="card-img-top NISborderRadius Entertainment" src="../Images/NIS/NIS16/Sam.jpg"
+                        alt="Card image cap">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+                <div class="card border-dark h-100">
+                    <div class="card-body">
+                        <h4 class="nameFont2 text-center Food">
+                            Jessie Hoang </h4>
+                        <h5 class="positionFont text-center "> Food </h5>
+                    </div>
+                    <img class="card-img-top NISborderRadius Food" src="../Images/NIS/NIS16/Jessie.jpg"
+                        alt="Card image cap">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+                <div class="card border-dark h-100">
+
+                    <div class="card-body">
+                        <h4 class="nameFont2 text-center Logistics">
+                            Ian Hardy</h4>
+                        <h5 class="positionFont text-center "> Logistics </h5>
+                    </div>
+                    <img class="card-img-top NISborderRadius Logistics" src="../Images/NIS/NIS16/Ian.jpg"
+                        alt="Card image cap">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="containerNIS tempPadding">
+        <div class="row ">
+            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+                <div class="card border-dark h-100">
+
+                    <div class="card-body">
+                        <h4 class="nameFont2 text-center Marketing">
+                            Nhilynn Nguyen </h4>
+                        <h5 class="positionFont text-center "> Marketing </h5>
+                    </div>
+                    <img class="card-img-top NISborderRadius Marketing" src="../Images/NIS/NIS16/Winny.jpg">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+                <div class="card border-dark h-100">
+                    <div class="card-body">
+
+                        <h4 class="nameFont2 text-center Media">
+                            Benjamin Nguyen </h4>
+                        <h5 class="positionFont text-center "> Media </h5>
+
+                    </div>
+                    <img class="card-img-top NISborderRadius Media" src="../Images/NIS/NIS16/Ben.jpg"
+                        alt="Card image cap">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+                <div class="card border-dark h-100">
+
+                    <div class="card-body">
+
+                        <h4 class="nameFont2 text-center Skit">
+                            Teresa Tran </h4>
+                        <h5 class="positionFont text-center "> Skit </h5>
+
+                    </div>
+                    <img class="card-img-top NISborderRadius Skit" src="../Images/NIS/NIS16/Teresa.jpg"
+                        alt="Card image cap">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tempCard"> </div>
+    <div class="containerNIS pb-5 tempSkit">
+        <div class="row ">
+            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+                <div class="card border-dark h-100">
+
+                    <div class="card-body">
+                        <h4 class="nameFont2 text-center Skit2">
+                            Henry Bui </h4>
+                        <h5 class="positionFont text-center "> Skit </h5>
+                    </div>
+                    <img class="card-img-top NISborderRadius Skit2" src="../Images/NIS/NIS16/Henry.jpg">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+            </div>
+            <div class="col-md-4 col-sm-4 paddingTop paddingBottomNIS">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid  d-flex justify-content-center pb-5 grayBackground">
+        <div class="row">
+            <div class="col-md-6 minWidth30">
+                <h2 class="text-center NISvideoFont pt-5 pb-5"> NIS 16 Reveal! </h2>
+
+                <div class="embed-responsive embed-responsive-16by9 ">
+                    <iframe src="https://www.youtube.com/embed/7Yif97t0SCE" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+            </div>
+
+            <div class=" col-md-6 minWidth30">
+                <h2 class="text-center NISvideoFont pt-5 pb-5"> NIS 15 Recap! </h2>
+
+                <div class="embed-responsive embed-responsive-16by9 ">
+                    <iframe src="https://www.youtube.com/embed/enfLMkM_ovI" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class='d-flex justify-content-center align-items-center blackBackground '>
+        <div class="footerSpacing text-left row h-100 container">
+            <div class="container footerPadding col-md-6 ">
+
+                <p class="footerText "> /Contact Us!</p>
+                Feel free to stop by our office during one of our executive board's office hours!
+
+                <br> <br>
+
+                <p class="footerText"> /Where To Find Us</p>
+                210 Memorial Hall
+                Office
+                Athens GA, 30602
+            </div>
+            <div class="container footerPadding col-md-6">
+                <p class="footerText">
+                    /Follow Us!
+                </p>
+
+                <a target="_blank" class="footerRemove colorATag pr-3"
+                    href="https://www.facebook.com/ugavsa/?tn-str=k*F">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                </a>
+                <a target="_blank" class="footerRemove colorATag pr-3" href="https://www.instagram.com/ugavsa/?hl=en">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </a>
+                <a target="_blank" class="footerRemove colorATag pr-3"
+                    href="https://www.youtube.com/user/UGAVSA/videos">
+                    <i class="fab fa-youtube fa-lg"></i>
+                </a>
+                <a target="_blank" class="footerRemove colorATag pr-3"
+                    href="https://www.linkedin.com/company/ugavsa/about/">
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                </a>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+
+</html>
+
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Jan 11, 2020 20:00:00").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="timer"
+        document.getElementById("timer").innerHTML = days + "Days" + hours + "Hours"
+            + minutes + "Minutes" + seconds + "Seconds";
+
+        // If the count down is over, write some text 
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("timer").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+
+    function updateIMG() {
+        $(".director").attr("src", "../Images/NIS/NIS2019/Amy.jpg");
+    }
+
+    function updateIMG2() {
+        $(".director").attr("src", "../Images/NIS/NIS2018/Alex.jpg");
+    }
+
+
+
+</script>
