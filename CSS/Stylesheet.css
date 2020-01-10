@@ -659,6 +659,14 @@ Partners
 
 /* Elections */
 
+.electionsTitle {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 8vh;
+}
+
+
 .electionsPadding {
     padding-top: 5vh;
     padding-bottom: 5vh;
@@ -666,8 +674,14 @@ Partners
 
 .electionsCardTitle {
     font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     text-decoration: underline;
+    font-size: 5vh;
+}
+
+.electionsCardTitle2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
     font-size: 5vh;
 }
 
