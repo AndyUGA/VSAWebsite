@@ -700,9 +700,19 @@ Partners
     font-size: 20vh;
 }
 
+.electionsMinCardWidth {
+    min-width: 100vw;
+}
+
+.listItemSecondIndent {
+    padding-left: 20px;
+}
+
 .iconPaddingTop {
     padding-top: 5vh;
 }
+
+
 
 
 
@@ -716,6 +726,10 @@ Partners
     */ 
     .iconPaddingTop {
         padding-top: 0;
+    }
+
+    .row {
+        margin-right: 0;
     }
     
     
