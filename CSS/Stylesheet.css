@@ -681,14 +681,27 @@ Partners
 
 .electionsCardTitle2 {
     font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
-    font-size: 5vh;
+    font-weight: 700;
+    font-size: 8vh;
 }
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+  }
 
 .electionsCardText {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 3vh;
+}
+
+.electionsCardIcon {
+    font-size: 20vh;
+}
+
+.iconPaddingTop {
+    padding-top: 5vh;
 }
 
 
@@ -701,7 +714,11 @@ Partners
     /*
     All 
     */ 
-
+    .iconPaddingTop {
+        padding-top: 0;
+    }
+    
+    
 
     .indexVSALogo {
         width: 30%;
@@ -961,7 +978,12 @@ Partners
     .awardsFont {
         font-size: 120%;
     }
-    
+
+    /* Elections */ 
+    .electionsCardTitle2 {
+        font-size: 7vh;
+        text-align: center;
+    }
 
 
 
@@ -971,6 +993,10 @@ Partners
 /* Mobile Device Landscape Mode */
 @media only screen and (min-width: 300px) and (max-width: 899px) and (orientation : landscape)  {
 
+    .iconPaddingTop {
+        padding-top: 0;
+    }
+    
     .container {
         width: 80%;
     }
@@ -1076,6 +1102,11 @@ Partners
     /*
     All
     */
+
+    .iconPaddingTop {
+        padding-top: 0;
+    }
+    
 
     .mainBGTitle {
         font-family: 'Quicksand', sans-serif;
