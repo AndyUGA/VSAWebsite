@@ -685,7 +685,7 @@ Partners
     font-size: 8vh;
 }
 
-ul {
+.noIndention {
     list-style-position: inside;
     padding-left: 0;
   }
