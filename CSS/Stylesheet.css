@@ -2,6 +2,8 @@
 * All pages 
 */
 
+
+
 .viewHeight20 {
     min-height: 20vh;
 }
@@ -686,6 +688,7 @@ Partners
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     font-size: 8vh;
+    text-decoration: underline;
 }
 
 .noIndention {
@@ -715,9 +718,7 @@ Partners
 }
 
 
-.iconPaddingTop {
-    padding-top: 5vh;
-}
+
 
 
 
@@ -732,12 +733,10 @@ Partners
     All 
     */ 
     .iconPaddingTop {
-        padding-top: 0;
+        padding-top: 5vh;
     }
 
-    .row {
-        margin-right: 0;
-    }
+    
     
     
 
@@ -1014,12 +1013,11 @@ Partners
 /* Mobile Device Landscape Mode */
 @media only screen and (min-width: 300px) and (max-width: 899px) and (orientation : landscape)  {
 
-    .row {
-        margin-right: 0;
-    }
+   
+    
 
     .iconPaddingTop {
-        padding-top: 0;
+        padding-top: 3vw;
     }
     
     .container {
@@ -1128,9 +1126,7 @@ Partners
     All
     */
     
-    .row {
-        margin-right: 0;
-    }
+   
     .iconPaddingTop {
         padding-top: 0;
     }
