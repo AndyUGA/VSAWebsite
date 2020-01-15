@@ -440,6 +440,7 @@ NIS
     font-size: 30%;
 }
 
+
 .containerNIS {
     width: 50%;
     padding-right: 15px;
@@ -712,6 +713,10 @@ Partners
 
 .electionsCardContainer {
     width: 100%;
+}
+
+.electionsSubTitle {
+    font-size: 20%;
 }
 .listItemSecondIndent {
     padding-left: 20px;
