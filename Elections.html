@@ -24,6 +24,29 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900&display=swap" rel="stylesheet">
 </head>
 
+<script>
+
+    let responsibilityList= ['Represent and attend all meetings in the absence of the President', 
+    'Build and maintain interrelationships with the UGA VSA general body and other organizations within UGA', 
+    'Organize carpool sheets for events occurring between VSA and other organizations at UGA',
+    'Plan and sort the general body INTO Anh Chi Em (ACE) families']
+    console.log(33, responsibilityList);
+    function IVP() {
+        $(".updatePosition").text("Internval Vice President");
+        $(".responsibilityTitle").text("Internval Vice President");
+        $(".responsibilityPosition").text("Contact Tony Vu with any further questions ");
+        $(".responsibilityImage").attr("src", "./Images/ExecBoard/Tony.jpg");
+        $(".responsibilityList").empty();
+        
+        jQuery.each(responsibilityList, function (index, item) {
+            console.log(42, index);
+            $(".responsibilityList").append(`<li> ${item} </li>`);
+         
+        });
+      
+    }
+</script>
+
 
 
 <body>
@@ -361,38 +384,38 @@
 
     <div class="container">
         <div class="d-flex justify-content-center">
-            <button id="btnGroupDrop1" type="button" class="btn btn-lg btn-dark dropdown-toggle mt-5"
+            <button id="btnGroupDrop1" type="button" class="updatePosition btn btn-lg btn-dark dropdown-toggle mt-5"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                President 
+                President
             </button>
             <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                <a class="dropdown-item" onclick="update2019()"> Internal Vice President </a>
-                <a class="dropdown-item" onclick="update2019()"> External Vice President </a>
-                <a class="dropdown-item" onclick="update2019()"> Treasurer </a>
-                <a class="dropdown-item" onclick="update2019()"> Secretary  </a>
-                <a class="dropdown-item" onclick="update2019()"> Public Relations </a>
-                <a class="dropdown-item" onclick="update2019()">  Historian </a>
-      
+                <a class="dropdown-item" onclick="IVP()"> Internal Vice President </a>
+                <a class="dropdown-item" onclick="EVP()"> External Vice President </a>
+                <a class="dropdown-item" onclick="Treasurer()"> Treasurer </a>
+                <a class="dropdown-item" onclick="Secretary()"> Secretary </a>
+                <a class="dropdown-item" onclick="PR()"> Public Relations </a>
+                <a class="dropdown-item" onclick="Historian()"> Historian </a>
+
             </div>
         </div>
         <div class="card mt-5 mb-5">
-            <div class="row no-gutters">
+            <div class="row no-gutters ">
                 <div class="col-xl-4">
-                    <img src="./Images/ExecBoard/Tammy.jpg" class="card-img" alt="...">
+                    <img src="./Images/ExecBoard/Tammy.jpg" class="card-img responsibilityImage" alt="...">
                 </div>
                 <div class="col-xl-8">
                     <div class="card-body">
-                        <h1 class="card-title text-center font-weight-bold"> President </h1>
-                        <p class="card-text"> Contact Tammy Pham with any further questions </p>
-                        <ul class="noIndention">
-                            <li class="">
+                        <h1 class="card-title text-center font-weight-bold responsibilityTitle"> President </h1>
+                        <p class="card-text responsibilityPosition"> Contact Tammy Pham with any further questions </p>
+                        <ul class="noIndention responsibilityList">
+                            <li>
                                 General supervision of all affairs related to VSA
                             </li>
-                            <li class="">
+                            <li>
                                 Delegate tasks for executive board members and make sure they are all completed
 
                             </li>
-                            <li class="">
+                            <li>
                                 Preside over all meetings, including general body, executive board,
                                 International Student LIfe (monthly 1-on-1 meetings, Leadership Linkups, and Leadership
                                 Summits),
@@ -401,11 +424,11 @@
                             <li class="listItemSecondIndent">
                                 Create meeting outline and lead executive board meetings
                             </li>
-                            <li class="">
+                            <li>
                                 Create yearly calendar for all VSA-related events (UGA VSA, internal and external orgs)
 
                             </li>
-                            <li class="">
+                            <li>
                                 ISL
                             </li>
                             <li class="listItemSecondIndent">
@@ -420,22 +443,22 @@
                                 Re-register VSA as an organization through ISL and UGA
 
                             </li>
-                            <li class="">
+                            <li>
                                 Manage VSA’s UGA Involvement Network page
                             </li>
                             <li class="listItemSecondIndent">
                                 Manage roster and sign up for involvement fair tabling
                             </li>
-                            <li class="">
+                            <li>
                                 Sign up UGA for UVSASE Olympics
                             </li>
                             <li class="listItemSecondIndent">
                                 Submit all players and coaches
                             </li>
-                            <li class="">
+                            <li>
                                 Act as Co-Executive Director of Night in Saigon
                             </li>
-                            <li class="">
+                            <li>
                                 Instill and promote pillars in all VSA related events
                             </li>
 
