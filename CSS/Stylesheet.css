@@ -419,7 +419,7 @@ NIS
         font-size: 10vh;
         color: white;
         
-    }
+}
 
 .paddingTopAndBottom {
     padding-top: 8%;
@@ -669,6 +669,14 @@ Partners
     text-decoration: underline;
     font-size: 8vh;
 }
+
+.electionsBGImageTitle {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13vh;
+    color: white;
+    
+}
+
 
 
 .electionsPadding {
@@ -1013,6 +1021,13 @@ Partners
     .electionsCardTitle2 {
         font-size: 7vh;
         text-align: center;
+    }
+
+    .electionsBGImageTitle {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 5vh;
+        color: white;
+        
     }
 
 
