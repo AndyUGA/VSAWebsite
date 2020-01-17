@@ -85,6 +85,9 @@ Index
 */
 
 
+.rounded {
+    border-radius: 3.25rem !important;
+}
 
 .indexVSALogo {
     width: 15vw;
@@ -99,16 +102,14 @@ Index
     margin-bottom: 5vh;
 }
 
-.pillarBold {
-    font-size: 2vw;
+.indexCardTitle {
+    font-size: 8vh;
+    text-align: center;
     font-weight: bold;
-    overflow-wrap: normal;
 }
 
-.pillarFontSize {
-    font-size: 15vh;
-    text-align: center;
-
+.indexCardSubText {
+    font-size: 2.5vh;
 }
 
 
@@ -188,7 +189,7 @@ span {
 
 
 .grayBackground {
-    background-color: #F2F2F2 !important;
+    background-color: #F6F6F8 !important;
 }
 
 .blackBackground {
