@@ -48,6 +48,43 @@
         'Organize carpools to out of town events including other VSAs’ events, camps, and conferences'
     ];
 
+    let treasurerResponsibilities = [
+        'Update budget and program tracker regularly',
+        'Allocate funds as needed',
+        'Create budget proposal prior to big events such as Night in Saigon and Athens by Night',
+        'Fully understand and in charge of the reimbursement and deposit process',
+        'Attend mostly ISL Leadership Linkups',
+        'Attend 1:1 meeting with an assigned advisor ',
+        'Take over Night in Saigon Sponsorship Committee if necessary',
+    ];
+
+    let secretaryResponsibilities = [
+        'Record notes at every meeting (e-board, etc…)',
+        'Create presentations for GBMs',
+        'Take attendance (set up sign-in sheet)',
+        'Make reservations for meetings and events (e-board, GBMs, NIS, ABN, rehearsals, and fundraising tables)',
+        'Send out meeting minutes',
+        'Update listserv',
+        'Manage VSA emails (vsa@uga.edu)',
+        'Submit fundraising permits through Involvement Network',
+        'Update Calendar'
+    ]; 
+
+    let publicRelationsResponsibilities = [
+        'Create visual content (specifically graphics) for all social media platforms including our official Facebook page, Facebook general body page, Instagram, Snapchat, GroupMe, Remind101',
+        'Update members with upcoming events, meetings, other organization’s socials/events/meetings through our different mediums',
+        'Come up with creative ideas for promotion',
+        'Keep strong relationships with members of UGA VSA, other organizations at UGA, and VSA’s from other schools '       
+    ]; 
+
+    let historianResponsibilities = [
+        'Capturing all VSA events through photography and/or videography',
+        'Promoting VSA at UGA through various creative media ',
+        'Acting as a liaison to VSA at UGA alumni',
+        'Maintaining and keeping track of UGAVSA history through the historical archives',
+        'Possession of/Ability to buy a camera is preferred'
+    ]
+
 
  
     function IVP() {
@@ -74,10 +111,57 @@
         
         jQuery.each(EVPResponsibilities, function (index, item) {
             $(".responsibilityList").append(`<li> ${item} </li>`);
-         
         });
-      
     }
+
+    function Treasurer() {
+        $(".updatePosition").text("Treasurer");
+        $(".responsibilityTitle").text("Treasurer");
+        $(".responsibilityPosition").text("Contact Chasitie Trinh with any further questions ");
+        $(".responsibilityImage").attr("src", "./Images/ExecBoard/Chasitie.jpg");
+        $(".responsibilityList").empty();
+        
+        jQuery.each(treasurerResponsibilities, function (index, item) {
+            $(".responsibilityList").append(`<li> ${item} </li>`);
+        });
+    }
+
+    function PublicRelations() {
+        $(".updatePosition").text("Public Relations");
+        $(".responsibilityTitle").text("Public Relations");
+        $(".responsibilityPosition").text("Contact Sabrina Lee with any further questions ");
+        $(".responsibilityImage").attr("src", "./Images/ExecBoard/Sabrina.jpg");
+        $(".responsibilityList").empty();
+        
+        jQuery.each(publicRelationsResponsibilities, function (index, item) {
+            $(".responsibilityList").append(`<li> ${item} </li>`);
+        });
+    }
+
+    function Secretary() {
+        $(".updatePosition").text("Secretary");
+        $(".responsibilityTitle").text("Secretary");
+        $(".responsibilityPosition").text("Contact Ken Duong with any further questions ");
+        $(".responsibilityImage").attr("src", "./Images/ExecBoard/Ken.jpg");
+        $(".responsibilityList").empty();
+        
+        jQuery.each(secretaryResponsibilities, function (index, item) {
+            $(".responsibilityList").append(`<li> ${item} </li>`);
+        });
+    }
+
+    function Historian() {
+        $(".updatePosition").text("Historian");
+        $(".responsibilityTitle").text("Historian");
+        $(".responsibilityPosition").text("Contact Domninic Nguyen with any further questions ");
+        $(".responsibilityImage").attr("src", "./Images/ExecBoard/Dominic.jpg");
+        $(".responsibilityList").empty();
+        
+        jQuery.each(historianResponsibilities, function (index, item) {
+            $(".responsibilityList").append(`<li> ${item} </li>`);
+        });
+    }
+
 </script>
 
 
@@ -426,7 +510,7 @@
                 <a class="dropdown-item" onclick="EVP()"> External Vice President </a>
                 <a class="dropdown-item" onclick="Treasurer()"> Treasurer </a>
                 <a class="dropdown-item" onclick="Secretary()"> Secretary </a>
-                <a class="dropdown-item" onclick="PR()"> Public Relations </a>
+                <a class="dropdown-item" onclick="PublicRelations()"> Public Relations </a>
                 <a class="dropdown-item" onclick="Historian()"> Historian </a>
 
             </div>
