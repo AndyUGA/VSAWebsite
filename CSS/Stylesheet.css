@@ -106,6 +106,7 @@ Index
     font-size: 8vh;
     text-align: center;
     font-weight: bold;
+    border-bottom: 2px solid black;
 }
 
 .indexCardSubText {
