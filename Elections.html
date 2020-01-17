@@ -3,14 +3,14 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156439710-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156439710-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'UA-156439710-1');
-</script>
+        gtag('config', 'UA-156439710-1');
+    </script>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -35,54 +35,54 @@
 
 <script>
 
-    let IVPResponsibilities = ['Represent and attend all meetings in the absence of the President', 
-    'Build and maintain interrelationships with the UGA VSA general body and other organizations within UGA', 
-    'Organize carpool sheets for events occurring between VSA and other organizations at UGA',
-    'Plan and sort the general body INTO Anh Chi Em (ACE) families'];
+    let IVPResponsibilities = ['Represent and attend all meetings in the absence of the President.',
+        'Build and maintain interrelationships with the UGA VSA general body and other organizations within UGA.',
+        'Organize carpool sheets for events occurring between VSA and other organizations at UGA.',
+        'Plan and sort the general body INTO Anh Chi Em (ACE) families'];
 
     let EVPResponsibilities = [
-        'Assuming the responsibilities of the President and IVP in their absences',
-        'Representing the VSA at all conferences, conventions, community, and faculty or alumni meetings',
-        'Acting as a liaison to all external organizations including but not limited to UVSASE, UNAVSA, other VSAs, and local Vietnamese-American communities',
-        'Organize housing for any out of town visitors during large events',
-        'Organize carpools to out of town events including other VSAs’ events, camps, and conferences'
+        'Assuming the responsibilities of the President and IVP in their absences.',
+        'Representing the VSA at all conferences, conventions, community, and faculty or alumni meetings.',
+        'Acting as a liaison to all external organizations including but not limited to UVSASE, UNAVSA, other VSAs, and local Vietnamese-American communities.',
+        'Organize housing for any out of town visitors during large events.',
+        'Organize carpools to out of town events including other VSAs’ events, camps, and conferences.'
     ];
 
     let treasurerResponsibilities = [
-        'Update budget and program tracker regularly',
-        'Allocate funds as needed',
-        'Create budget proposal prior to big events such as Night in Saigon and Athens by Night',
-        'Fully understand and in charge of the reimbursement and deposit process',
-        'Attend mostly ISL Leadership Linkups',
-        'Attend 1:1 meeting with an assigned advisor ',
-        'Take over Night in Saigon Sponsorship Committee if necessary',
+        'Update budget and program tracker regularly.',
+        'Allocate funds as needed.',
+        'Create budget proposal prior to big events such as Night in Saigon and Athens by Night.',
+        'Fully understand and in charge of the reimbursement and deposit process.',
+        'Attend mostly ISL Leadership Linkups.',
+        'Attend 1:1 meeting with an assigned advisor.',
+        'Take over Night in Saigon Sponsorship Committee if necessary.',
     ];
 
     let secretaryResponsibilities = [
-        'Record notes at every meeting (e-board, etc…)',
-        'Create presentations for GBMs',
-        'Take attendance (set up sign-in sheet)',
-        'Make reservations for meetings and events (e-board, GBMs, NIS, ABN, rehearsals, and fundraising tables)',
-        'Send out meeting minutes',
-        'Update listserv',
-        'Manage VSA emails (vsa@uga.edu)',
-        'Submit fundraising permits through Involvement Network',
-        'Update Calendar'
-    ]; 
+        'Record notes at every meeting (e-board, etc…).',
+        'Create presentations for GBMs.',
+        'Take attendance (set up sign-in sheet).',
+        'Make reservations for meetings and events (e-board, GBMs, NIS, ABN, rehearsals, and fundraising tables).',
+        'Send out meeting minutes.',
+        'Update listserv.',
+        'Manage VSA emails (vsa@uga.edu).',
+        'Submit fundraising permits through Involvement Network.',
+        'Update Calendar.'
+    ];
 
     let publicRelationsResponsibilities = [
-        'Create visual content (specifically graphics) for all social media platforms including our official Facebook page, Facebook general body page, Instagram, Snapchat, GroupMe, Remind101',
-        'Update members with upcoming events, meetings, other organization’s socials/events/meetings through our different mediums',
-        'Come up with creative ideas for promotion',
-        'Keep strong relationships with members of UGA VSA, other organizations at UGA, and VSA’s from other schools '       
-    ]; 
+        'Create visual content (specifically graphics) for all social media platforms including our official Facebook page, Facebook general body page, Instagram, Snapchat, GroupMe, Remind101.',
+        'Update members with upcoming events, meetings, other organization’s socials/events/meetings through our different mediums.',
+        'Come up with creative ideas for promotion.',
+        'Keep strong relationships with members of UGA VSA, other organizations at UGA, and VSA’s from other schools.'
+    ];
 
     let historianResponsibilities = [
-        'Capturing all VSA events through photography and/or videography',
-        'Promoting VSA at UGA through various creative media ',
-        'Acting as a liaison to VSA at UGA alumni',
-        'Maintaining and keeping track of UGAVSA history through the historical archives',
-        'Possession of/Ability to buy a camera is preferred'
+        'Capturing all VSA events through photography and/or videography.',
+        'Promoting VSA at UGA through various creative media.',
+        'Acting as a liaison to VSA at UGA alumni.',
+        'Maintaining and keeping track of UGAVSA history through the historical archives.',
+        'Possession of/Ability to buy a camera is preferred.'
     ]
 
 
@@ -92,7 +92,7 @@
         $(".responsibilityPosition").text("Contact Tammy Pham with any further questions ");
         $(".responsibilityImage").attr("src", "./Images/ExecBoard/Tammy.jpg");
         $(".responsibilityList").empty();
-        
+
         jQuery.each(IVPResponsibilities, function (index, item) {
             console.log(42, index);
             $(".President").html(`<div class="col-xl-4">
@@ -112,7 +112,7 @@
                             </li>
                             <li class = "responsibilityListFont">
                                 Preside over all meetings, including general body, executive board,
-                                International Student LIfe (monthly 1-on-1 meetings, Leadership Linkups, and Leadership
+                                International Student Life (monthly 1-on-1 meetings, Leadership Linkups, and Leadership
                                 Summits),
                                 and UVSASE President calls (all presidents, sub-group, and 1-on-1 with UVSASE IVP)
                             </li>
@@ -161,9 +161,9 @@
                         </ul>
                     </div>
                 </div>`);
-         
+
         });
-      
+
     }
 
     function IVP() {
@@ -172,13 +172,13 @@
         $(".responsibilityPosition").html("<b>Contact Tony Vu with any further questions</b>");
         $(".responsibilityImage").attr("src", "./Images/ExecBoard/Tony.jpg");
         $(".responsibilityList").empty();
-        
+
         jQuery.each(IVPResponsibilities, function (index, item) {
             console.log(42, index);
             $(".responsibilityList").append(`<li> ${item} </li>`);
-         
+
         });
-      
+
     }
 
     function EVP() {
@@ -187,7 +187,7 @@
         $(".responsibilityPosition").html("<b>Contact Austin Tran with any further questions</b>");
         $(".responsibilityImage").attr("src", "./Images/ExecBoard/Austin.jpg");
         $(".responsibilityList").empty();
-        
+
         jQuery.each(EVPResponsibilities, function (index, item) {
             $(".responsibilityList").append(`<li> ${item} </li>`);
         });
@@ -199,7 +199,7 @@
         $(".responsibilityPosition").html("<b>Contact Chasitie Trinh with any further questions</b>");
         $(".responsibilityImage").attr("src", "./Images/ExecBoard/Chasitie.jpg");
         $(".responsibilityList").empty();
-        
+
         jQuery.each(treasurerResponsibilities, function (index, item) {
             $(".responsibilityList").append(`<li> ${item} </li>`);
         });
@@ -211,7 +211,7 @@
         $(".responsibilityPosition").html("<b>Contact Sabrina Lee with any further questions</b>");
         $(".responsibilityImage").attr("src", "./Images/ExecBoard/Sabrina.jpg");
         $(".responsibilityList").empty();
-        
+
         jQuery.each(publicRelationsResponsibilities, function (index, item) {
             $(".responsibilityList").append(`<li> ${item} </li>`);
         });
@@ -223,7 +223,7 @@
         $(".responsibilityPosition").html("<b>Contact Ken Duong with any further questions</b>");
         $(".responsibilityImage").attr("src", "./Images/ExecBoard/Ken.jpg");
         $(".responsibilityList").empty();
-        
+
         jQuery.each(secretaryResponsibilities, function (index, item) {
             $(".responsibilityList").append(`<li> ${item} </li>`);
         });
@@ -235,7 +235,7 @@
         $(".responsibilityPosition").html("<b>Contact Domninic Nguyen with any further questions</b>");
         $(".responsibilityImage").attr("src", "./Images/ExecBoard/Dominic.jpg");
         $(".responsibilityList").empty();
-        
+
         jQuery.each(historianResponsibilities, function (index, item) {
             $(".responsibilityList").append(`<li> ${item} </li>`);
         });
@@ -345,9 +345,7 @@
                             <ul class="noIndention">
                                 <li>
                                     Must be a <b> student </b> at the University of Georgia through the <b> upcoming
-                                        fall
-                                        semester
-                                    </b>.
+                                        fall semester. </b>
                                 </li>
                                 <li>
                                     Must have attended <b> at least two general body meetings or events </b> during the
@@ -356,10 +354,9 @@
                                 </li>
                                 <li>
                                     Indication to slate down to any position must be made <b> BEFORE </b> opposing
-                                    candidates
-                                    begin any speeches (i.e. during the nomination process) and they must have listed
-                                    the
-                                    position as one of interest on their application.
+                                    candidates begin any speeches (i.e. during the nomination process) and they must
+                                    have listed
+                                    the position as one of interest on their application.
                                     <b>Entering the race following another candidate’s speech will not be permitted.
                                     </b>
                                 </li>
@@ -375,7 +372,8 @@
                             <div class="electionsCardContainer pt-3">
                                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJH6o9q6zR6Kwz_n5bGHw__SM5gOJncQfXkMTICw3c1P9GyA/viewform"
                                     target="_blank" class="btn btn-primary btn-lg active btn-block" role="button"
-                                    aria-pressed="true"> Apply
+                                    aria-pressed="true">
+                                    Apply
                                     Here!</a>
                             </div>
                         </div>
@@ -436,19 +434,17 @@
                             <div class="electionsCardTitle2"> How to be Elected </div>
                             <ul class="noIndention">
                                 <li>
-                                    A majority of voting members present at the time of elections
+                                    A majority of voting members present at the time of elections.
                                 </li>
                                 <li class="listItemSecondIndent">
                                     A member qualifies for voting privileges if they have attended <b> at least 2 VSA
-                                        GBMS
-                                        or EVENTS </b>
+                                        GBMS or EVENTS. </b>
                                 </li>
                                 <li>
-                                    Candidate must receive a majority vote by anonymous ballot
+                                    Candidate must receive a majority vote by anonymous ballot.
                                 </li>
                                 <li>
-                                    In the event of a tie, the exiting Executive Board will deliberate and vote.ate and
-                                    vote.
+                                    In the event of a tie, the exiting Executive Board will deliberate and vote.
                                 </li>
                             </ul>
                         </div>
@@ -473,28 +469,30 @@
         <div class="row">
             <div class="card border-dark mt-5  w-100">
                 <div class="row">
-                   
+
                     <div class="col-lg-12 d-flex align-items-center">
                         <div class="card-body">
                             <div class="electionsCardTitle2"> Rules </div>
                             <ul class="noIndention">
                                 <li>
-                                    All positions will be listed on the board
+                                    All positions will be listed on the board.
                                 </li>
                                 <li>
                                     Moderator will call out the names of those who completed the application
                                     and confirm whether they would like to continue in elections.
                                 </li>
                                 <li>
-                                    In the event of a candidate’s loss, they are given the option to slate down to another
+                                    In the event of a candidate’s loss, they are given the option to slate down to
+                                    another
                                     position of interest that they indicated on their application. Those that slate must
                                     announce
                                     their intention to run BEFORE the first nominee of that position speaks.
-        
+
                                 </li>
-        
+
                                 <li>
-                                    Elections will be facilitated by one or two neutral parties who have given up their voting
+                                    Elections will be facilitated by one or two neutral parties who have given up their
+                                    voting
                                     rights to ensure a fair and smooth election process.
                                 </li>
                                 <li>
@@ -511,30 +509,34 @@
         <div class="row">
             <div class="card border-dark mt-5 mb-5 w-100">
                 <div class="row">
-                   
+
                     <div class="col-lg-6 d-flex align-items-center">
                         <div class="card-body">
                             <div class="electionsCardTitle2"> Format </div>
                             <ul class="noIndention">
                                 <li>
-                                    The order of elections will be: President, Internal Vice President, External Vice President,
+                                    The order of elections will be: President, Internal Vice President, External Vice
+                                    President,
                                     Treasurer, Secretary, Public Relations, and Historian.
-        
+
                                 </li>
                                 <li>
-                                    Each candidate will get 3 minutes to speak and will be cut off if they go over
+                                    Each candidate will get 3 minutes to speak and will be cut off if they go over.
                                 </li>
                                 <li class="listItemSecondIndent">
-                                    For President, each nominee gets 5 minutes to speak
+                                    For President, each nominee gets 5 minutes to speak.
                                 </li>
                                 <li>
-                                    Following candidates' speeches, there will be a brief Q&A section where questions may be
-                                    asked by the voting body. ALL questions must pertain to ALL of the candidates and cannot be
+                                    Following candidates' speeches, there will be a brief Q&A section where questions
+                                    may be
+                                    asked by the voting body. ALL questions must pertain to ALL of the candidates and
+                                    cannot be
                                     specified to only one.
-        
+
                                 </li>
                                 <li class="listItemSecondIndent">
-                                    The first two questions will be selected prior to elections and asked by the moderator.
+                                    The first two questions will be selected prior to elections and asked by the
+                                    moderator.
                                 </li>
                                 <li class="listItemSecondIndent">
                                     The last two questions will be asked by members of the general body.
@@ -547,9 +549,10 @@
                             <div class="electionsCardTitle2"> Voting </div>
                             <ul class="noIndention">
                                 <li>
-                                    Following Q&A, candidates will be asked to leave the room and a deliberation period of 10 to 15
+                                    Following Q&A, candidates will be asked to leave the room and a deliberation period
+                                    of 10 to 15
                                     minutes will begin.
-            
+
                                 </li>
                                 <li>
                                     After deliberation, every member gets a sheet of paper to vote anonymously.
@@ -557,10 +560,11 @@
                                 <li>
                                     After deliberation, every member gets a sheet of paper to vote anonymously.
                                     Results will be announced immediately after the counting process finishes.
-            
+
                                 </li>
                                 <li>
-                                    In the event that a nominee does not get the position they ran for, they have the option to
+                                    In the event that a nominee does not get the position they ran for, they have the
+                                    option to
                                     slate down and run for another position.
                                 </li>
                             </ul>
@@ -570,7 +574,7 @@
                 </div>
             </div>
         </div>
-     
+
 
     </div>
 
@@ -605,61 +609,58 @@
                 </div>
                 <div class="col-xl-8">
                     <div class="card-body">
-                        <h1 class="card-title text-center font-weight-bold responsibilityTitle"> President </h1>
-                        <p class="card-text responsibilityPosition"> <b> Contact Tammy Pham with any further questions </b></p>
+                        <h1 class="card-title text-center font-weight-bold  responsibilityTitle"> President </h1>
+                        <p class="card-text responsibilityPosition"> <b> Contact Tammy Pham with any further questions.
+                            </b></p>
                         <ul class="noIndention responsibilityList justify-content-center ">
-                            <li class = "responsibilityListFont">
-                                General supervision of all affairs related to VSA
+                            <li class="responsibilityListFont">
+                                General supervision of all affairs related to VSA.
                             </li>
-                            <li class = "responsibilityListFont">
-                                Delegate tasks for executive board members and make sure they are all completed
-
+                            <li class="responsibilityListFont">
+                                Delegate tasks for executive board members and make sure they are all completed.
                             </li>
-                            <li class = "responsibilityListFont">
+                            <li class="responsibilityListFont">
                                 Preside over all meetings, including general body, executive board,
-                                International Student LIfe (monthly 1-on-1 meetings, Leadership Linkups, and Leadership
+                                International Student Life (monthly 1-on-1 meetings, Leadership Linkups, and Leadership
                                 Summits),
-                                and UVSASE President calls (all presidents, sub-group, and 1-on-1 with UVSASE IVP)
+                                and UVSASE President calls (all presidents, sub-group, and 1-on-1 with UVSASE IVP).
                             </li>
                             <li class="listItemSecondIndent responsibilityListFont">
-                                Create meeting outline and lead executive board meetings
+                                Create meeting outline and lead executive board meetings.
                             </li>
-                            <li class = "responsibilityListFont ">
-                                Create yearly calendar for all VSA-related events (UGA VSA, internal and external orgs)
-
+                            <li class="responsibilityListFont ">
+                                Create yearly calendar for all VSA-related events (UGA VSA, internal and external orgs).
                             </li>
-                            <li class = "responsibilityListFont">
+                            <li class="responsibilityListFont">
                                 ISL
                             </li>
                             <li class="listItemSecondIndent responsibilityListFont">
-                                Act as direct liaison to ISL advisor
+                                Act as direct liaison to ISL advisor.
 
                             </li>
                             <li class="listItemSecondIndent responsibilityListFont">
-                                Reserve equipment for ISL and make sure they are returned (clean and dry)
-
+                                Reserve equipment for ISL and make sure they are returned (clean and dry).
                             </li>
                             <li class="listItemSecondIndent responsibilityListFont">
-                                Re-register VSA as an organization through ISL and UGA
-
+                                Re-register VSA as an organization through ISL and UGA.
                             </li>
-                            <li class = "responsibilityListFont">
-                                Manage VSA’s UGA Involvement Network page
-                            </li>
-                            <li class="listItemSecondIndent responsibilityListFont">
-                                Manage roster and sign up for involvement fair tabling
-                            </li>
-                            <li class = "responsibilityListFont">
-                                Sign up UGA for UVSASE Olympics
+                            <li class="responsibilityListFont">
+                                Manage VSA’s UGA Involvement Network page.
                             </li>
                             <li class="listItemSecondIndent responsibilityListFont">
-                                Submit all players and coaches
+                                Manage roster and sign up for involvement fair tabling.
                             </li>
-                            <li class = "responsibilityListFont">
-                                Act as Co-Executive Director of Night in Saigon
+                            <li class="responsibilityListFont">
+                                Sign up UGA for UVSASE Olympics.
                             </li>
-                            <li class = "responsibilityListFont">
-                                Instill and promote pillars in all VSA related events
+                            <li class="listItemSecondIndent responsibilityListFont">
+                                Submit all players and coaches.
+                            </li>
+                            <li class="responsibilityListFont">
+                                Act as Co-Executive Director of Night in Saigon.
+                            </li>
+                            <li class="responsibilityListFont">
+                                Instill and promote pillars in all VSA related events.
                             </li>
 
 
