@@ -2,6 +2,15 @@
 <html>
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156439710-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-156439710-1');
+</script>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -26,11 +35,21 @@
 
 <script>
 
-    let responsibilityList= ['Represent and attend all meetings in the absence of the President', 
+    let IVPResponsibilities = ['Represent and attend all meetings in the absence of the President', 
     'Build and maintain interrelationships with the UGA VSA general body and other organizations within UGA', 
     'Organize carpool sheets for events occurring between VSA and other organizations at UGA',
-    'Plan and sort the general body INTO Anh Chi Em (ACE) families']
-    console.log(33, responsibilityList);
+    'Plan and sort the general body INTO Anh Chi Em (ACE) families'];
+
+    let EVPResponsibilities = [
+        'Assuming the responsibilities of the President and IVP in their absences',
+        'Representing the VSA at all conferences, conventions, community, and faculty or alumni meetings',
+        'Acting as a liaison to all external organizations including but not limited to UVSASE, UNAVSA, other VSAs, and local Vietnamese-American communities',
+        'Organize housing for any out of town visitors during large events',
+        'Organize carpools to out of town events including other VSAs’ events, camps, and conferences'
+    ];
+
+
+ 
     function IVP() {
         $(".updatePosition").text("Internval Vice President");
         $(".responsibilityTitle").text("Internval Vice President");
@@ -38,8 +57,22 @@
         $(".responsibilityImage").attr("src", "./Images/ExecBoard/Tony.jpg");
         $(".responsibilityList").empty();
         
-        jQuery.each(responsibilityList, function (index, item) {
+        jQuery.each(IVPResponsibilities, function (index, item) {
             console.log(42, index);
+            $(".responsibilityList").append(`<li> ${item} </li>`);
+         
+        });
+      
+    }
+
+    function EVP() {
+        $(".updatePosition").text("External Vice President");
+        $(".responsibilityTitle").text("External Vice President");
+        $(".responsibilityPosition").text("Contact Austin Tran with any further questions ");
+        $(".responsibilityImage").attr("src", "./Images/ExecBoard/Austin.jpg");
+        $(".responsibilityList").empty();
+        
+        jQuery.each(EVPResponsibilities, function (index, item) {
             $(".responsibilityList").append(`<li> ${item} </li>`);
          
         });
@@ -407,58 +440,58 @@
                     <div class="card-body">
                         <h1 class="card-title text-center font-weight-bold responsibilityTitle"> President </h1>
                         <p class="card-text responsibilityPosition"> Contact Tammy Pham with any further questions </p>
-                        <ul class="noIndention responsibilityList">
-                            <li>
+                        <ul class="noIndention responsibilityList justify-content-center ">
+                            <li class = "responsibilityListFont">
                                 General supervision of all affairs related to VSA
                             </li>
-                            <li>
+                            <li class = "responsibilityListFont">
                                 Delegate tasks for executive board members and make sure they are all completed
 
                             </li>
-                            <li>
+                            <li class = "responsibilityListFont">
                                 Preside over all meetings, including general body, executive board,
                                 International Student LIfe (monthly 1-on-1 meetings, Leadership Linkups, and Leadership
                                 Summits),
                                 and UVSASE President calls (all presidents, sub-group, and 1-on-1 with UVSASE IVP)
                             </li>
-                            <li class="listItemSecondIndent">
+                            <li class="listItemSecondIndent responsibilityListFont">
                                 Create meeting outline and lead executive board meetings
                             </li>
-                            <li>
+                            <li class = "responsibilityListFont ">
                                 Create yearly calendar for all VSA-related events (UGA VSA, internal and external orgs)
 
                             </li>
-                            <li>
+                            <li class = "responsibilityListFont">
                                 ISL
                             </li>
-                            <li class="listItemSecondIndent">
+                            <li class="listItemSecondIndent responsibilityListFont">
                                 Act as direct liaison to ISL advisor
 
                             </li>
-                            <li class="listItemSecondIndent">
+                            <li class="listItemSecondIndent responsibilityListFont">
                                 Reserve equipment for ISL and make sure they are returned (clean and dry)
 
                             </li>
-                            <li class="listItemSecondIndent">
+                            <li class="listItemSecondIndent responsibilityListFont">
                                 Re-register VSA as an organization through ISL and UGA
 
                             </li>
-                            <li>
+                            <li class = "responsibilityListFont">
                                 Manage VSA’s UGA Involvement Network page
                             </li>
-                            <li class="listItemSecondIndent">
+                            <li class="listItemSecondIndent responsibilityListFont">
                                 Manage roster and sign up for involvement fair tabling
                             </li>
-                            <li>
+                            <li class = "responsibilityListFont">
                                 Sign up UGA for UVSASE Olympics
                             </li>
-                            <li class="listItemSecondIndent">
+                            <li class="listItemSecondIndent responsibilityListFont">
                                 Submit all players and coaches
                             </li>
-                            <li>
+                            <li class = "responsibilityListFont">
                                 Act as Co-Executive Director of Night in Saigon
                             </li>
-                            <li>
+                            <li class = "responsibilityListFont">
                                 Instill and promote pillars in all VSA related events
                             </li>
 

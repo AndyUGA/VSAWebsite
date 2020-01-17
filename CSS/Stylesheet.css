@@ -638,8 +638,6 @@ Partners
     width: 30%;
 }
 
-
-
 .ParternsTitle {
     font-family: 'Quicksand', sans-serif;
     font-size: 10vh;
@@ -718,8 +716,13 @@ Partners
 .electionsSubTitle {
     font-size: 20%;
 }
+
 .listItemSecondIndent {
     padding-left: 20px;
+}
+
+.responsibilityListFont {
+    font-size: 15px;
 }
 
 
