@@ -215,8 +215,8 @@ span {
     color: white !important;
 }
 
-a:hover {
-    text-decoration: none;
+.redOnHover:hover {
+    color: red !important;
 }
 
 .indexPaddingTopAndBottom {
