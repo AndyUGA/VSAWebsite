@@ -465,10 +465,32 @@ NIS
 }
 
 .NISBGImg2 {
-
     height: 100vh; 
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/NIS/Photo4.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/NIS/Photo4.jpg'); 
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
+.NISBGImg3 {
+    height: 100vh; 
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/Elections/BG1.JPG'); 
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.NISBGImg4 {
+    height: 100vh; 
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/Elections/BG2.JPG'); 
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.NISBGImg5 {
+    height: 100vh; 
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/Elections/BG3.JPG'); 
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center center;
