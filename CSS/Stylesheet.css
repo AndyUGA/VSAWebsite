@@ -300,11 +300,14 @@ span {
 }
 
 
-
+.footerColor {
+    color: gray !important;
+    font-size: .8em;
+}
 
 .footerPadding {
-    padding-bottom: 15vh;
-    padding-top: 15vh;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
 }
 
 .paddingBottom {
