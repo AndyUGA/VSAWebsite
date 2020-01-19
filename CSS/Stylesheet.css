@@ -1116,7 +1116,7 @@ Partners
 
     .electionsBGImageTitle {
         font-family: 'Quicksand', sans-serif;
-        font-size: 5vh;
+        font-size: 6vh;
         color: white;
         
     }
@@ -1405,8 +1405,13 @@ Partners
         margin-left: auto;
     }
 
-
-
+    /* Elections */
+    .electionsBGImageTitle {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 9vh;
+        color: white;
+        
+    }
 
 
 
