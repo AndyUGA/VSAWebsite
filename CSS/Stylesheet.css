@@ -865,8 +865,37 @@ Partners
 
 .HOVText {
     font-family: 'Roboto', sans-serif;
-    font-size: 3vh;
+    font-size: 1.5rem;
     font-weight: 400;
+}
+
+.quoteFont {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.HOVNameFont {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.HOVicon {
+    font-size: 20vw;
+}
+
+@media screen and (min-width: 768px) {
+
+    .HOVicon {
+        font-size: 10vw;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .HOVicon {
+        font-size: 5vw;
+    }
 }
 
 li {
