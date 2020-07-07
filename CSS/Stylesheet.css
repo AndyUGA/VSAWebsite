@@ -844,6 +844,31 @@ Partners
 
 
 
+.HumansOfVSABG {
+    height: 100vh; 
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/Elections/BG1.JPG'); 
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.HOVTitle {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10vh;
+}
+
+.HOVIconPadding {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.HOVText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    font-weight: 400;
+}
+
 
 
 
