@@ -892,11 +892,33 @@ Partners
     font-family: 'Roboto', sans-serif;
 }
 
+.HOVListFontText {
+    font-size: 3vh;
+    margin-left: 45px;
+}
+
+.HOVHover {
+    color: inherit;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .HOVListFontText {
+        margin-left: 25px;
+    } 
+}
+
 @media screen and (min-width: 768px) {
 
     .HOVicon {
         font-size: 10vw;
     }
+
+  
 }
 
 @media screen and (min-width: 1280px) {
